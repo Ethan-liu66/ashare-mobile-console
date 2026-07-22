@@ -1,11 +1,11 @@
-const SHELL_CACHE = "ashare-shell-20260722-encrypted-1";
-const DATA_CACHE = "ashare-data-20260722-encrypted-1";
+const SHELL_CACHE = "ashare-shell-20260723-freshness-1";
+const DATA_CACHE = "ashare-data-20260723-freshness-1";
 const ROOT_URL = new URL("./", self.location.href);
 const MOBILE_URL = new URL("mobile/index.html", ROOT_URL).href;
 const APP_SHELL = [
   MOBILE_URL,
-  new URL("mobile/styles.css?v=20260722-swing-exit3", ROOT_URL).href,
-  new URL("mobile/app.js?v=20260722-mobile-pwa3", ROOT_URL).href,
+  new URL("mobile/styles.css?v=20260723-freshness1", ROOT_URL).href,
+  new URL("mobile/app.js?v=20260723-freshness1", ROOT_URL).href,
   new URL("mobile/manifest.webmanifest", ROOT_URL).href,
   new URL("icons/icon-192.png", ROOT_URL).href,
   new URL("icons/icon-512.png", ROOT_URL).href,
@@ -38,12 +38,30 @@ async function networkFirst(request, cacheName) {
   }
 }
 
+async function latestSnapshot(request) {
+  const cache = await caches.open(DATA_CACHE);
+  const canonical = new Request(new URL("data/mobile_snapshot.enc.json", ROOT_URL).href);
+  try {
+    const response = await fetch(request);
+    if (response.ok) await cache.put(canonical, response.clone());
+    return response;
+  } catch (error) {
+    const cached = await cache.match(canonical);
+    if (cached) return cached;
+    throw error;
+  }
+}
+
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  if (url.pathname.includes("/api/") || url.pathname.endsWith("/data/mobile_snapshot.enc.json")) {
+  if (url.pathname.endsWith("/data/mobile_snapshot.enc.json")) {
+    event.respondWith(latestSnapshot(event.request));
+    return;
+  }
+  if (url.pathname.includes("/api/")) {
     event.respondWith(networkFirst(event.request, DATA_CACHE));
     return;
   }

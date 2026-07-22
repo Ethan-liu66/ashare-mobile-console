@@ -10,7 +10,7 @@
     <title>A股趋势回调评分器</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="apple-touch-icon" href="./icons/icon-192.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260722-swing-exit3" />
+    <link rel="stylesheet" href="./styles.css?v=20260723-freshness1" />
   </head>
   <body>
     <main class="app-shell">
@@ -46,6 +46,11 @@
           <span id="homeRefreshStatus">获取已发布的最新自选池与板块快照</span>
         </div>
         <button class="mini-button primary" id="refreshHome" type="button">获取最新快照</button>
+        <div class="freshness-grid" aria-label="数据时效">
+          <span><small>最新股价</small><strong id="homePriceFreshness">读取中</strong></span>
+          <span><small>建议计算</small><strong id="homeAnalysisFreshness">读取中</strong></span>
+          <span><small>支撑压力</small><strong id="homeLevelBasis">读取中</strong></span>
+        </div>
       </section>
 
       <section class="daily-brief-view" id="dailyBriefView">
@@ -460,6 +465,6 @@
     </main>
 
     <script>window.APP_STATIC_SNAPSHOT_MODE = true;</script>
-    <script src="./app.js?v=20260722-mobile-pwa3"></script>
+    <script src="./app.js?v=20260723-freshness1"></script>
   </body>
 </html>

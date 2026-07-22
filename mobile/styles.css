@@ -239,9 +239,9 @@ h4 {
 }
 
 .home-refresh-bar {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 14px;
   margin-top: 12px;
   padding: 12px 14px;
@@ -253,6 +253,33 @@ h4 {
 .home-refresh-bar div {
   display: grid;
   gap: 4px;
+}
+
+.home-refresh-bar .freshness-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.freshness-grid > span {
+  display: grid;
+  gap: 3px;
+  padding: 9px 10px;
+  border-radius: 6px;
+  background: #f7f9fc;
+}
+
+.freshness-grid small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.freshness-grid strong {
+  overflow-wrap: anywhere;
+  font-size: 12px;
 }
 
 .home-refresh-bar strong {
@@ -2471,13 +2498,17 @@ canvas.dragging {
   }
 
   .home-refresh-bar {
-    align-items: stretch;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .home-refresh-bar .mini-button {
     width: 100%;
     height: 36px;
+  }
+
+  .home-refresh-bar .freshness-grid {
+    grid-column: 1;
+    grid-template-columns: 1fr;
   }
 
   .stock-head,

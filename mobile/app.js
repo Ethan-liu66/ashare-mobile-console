@@ -232,7 +232,8 @@ async function loadMobileSnapshot(force = false) {
     const url = staticSnapshotMode
       ? "../data/mobile_snapshot.enc.json"
       : "/data/mobile_snapshot.json";
-    const response = await fetch(url, { cache: "no-store" });
+    const requestUrl = force ? `${url}?refresh=${Date.now()}` : url;
+    const response = await fetch(requestUrl, { cache: "no-store" });
     if (!response.ok) throw new Error(`快照 ${response.status}`);
     const payload = await response.json();
     mobileSnapshot = staticSnapshotMode && payload.ciphertext
@@ -303,6 +304,9 @@ const refreshSentimentButton = document.querySelector("#refreshSentiment");
 const homeRefreshBar = document.querySelector("#homeRefreshBar");
 const refreshHomeButton = document.querySelector("#refreshHome");
 const homeRefreshStatus = document.querySelector("#homeRefreshStatus");
+const homePriceFreshness = document.querySelector("#homePriceFreshness");
+const homeAnalysisFreshness = document.querySelector("#homeAnalysisFreshness");
+const homeLevelBasis = document.querySelector("#homeLevelBasis");
 const dailyBriefView = document.querySelector("#dailyBriefView");
 const refreshDailyBriefButton = document.querySelector("#refreshDailyBrief");
 const watchlistView = document.querySelector("#watchlistView");
@@ -618,7 +622,7 @@ function renderStock(stock) {
     ...stock.buySignals,
   ]);
   renderExecutionPlan(stock);
-  renderSwingExitPlan(stock.swingExitPlan);
+  renderSwingExitPlan(stock.swingExitPlan, stock.analysisMeta);
   renderList("capacitySignals", stock.capacity.signals);
   renderQuotePanel(stock);
   renderMetrics(stock);
@@ -1002,13 +1006,14 @@ async function refreshHomeData() {
   }
   try {
     if (staticSnapshotMode) {
+      const previousUpdatedAt = mobileSnapshot?.updatedAt || mobileSnapshot?.completedAt;
       const snapshot = await loadMobileSnapshot(true);
-      renderWatchlist(snapshot.watchlist?.items || [], snapshot.watchlist?.battleGroups || []);
-      renderDailyBrief(snapshot.dailyBrief);
-      renderIndustryInsight(snapshot.industryInsight);
-      renderSectorRankings(snapshot.sectorRankings);
+      renderPublishedSnapshot(snapshot);
       if (homeRefreshStatus) {
-        homeRefreshStatus.textContent = `最新快照 · ${snapshot.updatedAt || snapshot.completedAt || "时间未知"}`;
+        const currentUpdatedAt = snapshot.updatedAt || snapshot.completedAt;
+        homeRefreshStatus.textContent = previousUpdatedAt && previousUpdatedAt === currentUpdatedAt
+          ? `已是最新版本 · ${currentUpdatedAt || "时间未知"}`
+          : `已获取新快照 · ${currentUpdatedAt || "时间未知"}`;
       }
       return;
     }
@@ -1031,6 +1036,57 @@ async function refreshHomeData() {
       refreshHomeButton.disabled = false;
       refreshHomeButton.textContent = staticSnapshotMode ? "获取最新快照" : "刷新自选池";
     }
+  }
+}
+
+function formatSnapshotTime(value) {
+  if (!value) return "时间未知";
+  if (typeof value === "number") return formatTime(value);
+  const parsed = new Date(String(value).replace(" ", "T"));
+  if (Number.isNaN(parsed.getTime())) return String(value);
+  return parsed.toLocaleString("zh-CN", {
+    hour12: false,
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function renderSnapshotFreshness(snapshot) {
+  const status = snapshot?.dataStatus || {};
+  if (homePriceFreshness) {
+    homePriceFreshness.textContent = formatSnapshotTime(status.quoteAsOf || snapshot?.updatedAt);
+  }
+  if (homeAnalysisFreshness) {
+    homeAnalysisFreshness.textContent = formatSnapshotTime(status.analysisAsOf || snapshot?.completedAt || snapshot?.updatedAt);
+  }
+  if (homeLevelBasis) {
+    homeLevelBasis.textContent = status.levelBasis || (snapshot?.mode === "close" ? "收盘确认" : "盘中暂定");
+  }
+}
+
+function renderPublishedSnapshot(snapshot) {
+  renderWatchlist(snapshot.watchlist?.items || [], snapshot.watchlist?.battleGroups || []);
+  renderDailyBrief(snapshot.dailyBrief);
+  renderIndustryInsight(snapshot.industryInsight);
+  renderSectorRankings(snapshot.sectorRankings);
+  renderSnapshotFreshness(snapshot);
+}
+
+async function checkLatestSnapshot() {
+  if (!staticSnapshotMode || !navigator.onLine || document.visibilityState === "hidden") return;
+  const previousUpdatedAt = mobileSnapshot?.updatedAt || mobileSnapshot?.completedAt;
+  try {
+    const snapshot = await loadMobileSnapshot(true);
+    const currentUpdatedAt = snapshot.updatedAt || snapshot.completedAt;
+    renderSnapshotFreshness(snapshot);
+    if (currentUpdatedAt !== previousUpdatedAt) {
+      renderPublishedSnapshot(snapshot);
+      if (homeRefreshStatus) homeRefreshStatus.textContent = `后台发现新快照 · ${currentUpdatedAt}`;
+    }
+  } catch {
+    // Offline fallback remains available through the service worker.
   }
 }
 
@@ -1333,6 +1389,9 @@ function renderQuotePanel(stock) {
   if (quote?.fetchedAt) {
     signals.push(`评分生成时间：${formatTime(quote.fetchedAt)}。`);
   }
+  if (stock.analysisMeta?.computedAt) {
+    signals.push(`建议计算时间：${formatSnapshotTime(stock.analysisMeta.computedAt)}；${stock.analysisMeta.levelBasis || "按最新结构计算"}。`);
+  }
   renderList("providerSignals", signals);
 }
 
@@ -1492,7 +1551,7 @@ function renderExecutionPlan(stock) {
   renderList("executionSignals", plan.signals || []);
 }
 
-function renderSwingExitPlan(plan) {
+function renderSwingExitPlan(plan, analysisMeta = null) {
   const levelsWrap = document.querySelector("#swingExitLevels");
   if (!plan) {
     setText("swingExitStatus", "待计算");
@@ -1509,7 +1568,11 @@ function renderSwingExitPlan(plan) {
   }
 
   const protection = plan.protection;
-  setText("swingExitStatus", plan.state || (plan.available ? "已计算" : "待形成"));
+  const basis = analysisMeta?.levelBasis;
+  setText(
+    "swingExitStatus",
+    `${plan.state || (plan.available ? "已计算" : "待形成")}${basis ? ` · ${basis}` : ""}`,
+  );
   setText("swingExitCycle", plan.timeframeResonance || "待确认");
   setText("swingExitSector", plan.sectorResonance || "待确认");
   setText("swingExitAcceptance", plan.acceptance?.state || "待确认");
@@ -2490,7 +2553,13 @@ function updatePwaStatus() {
 window.addEventListener("online", updatePwaStatus);
 window.addEventListener("offline", updatePwaStatus);
 updatePwaStatus();
-loadMobileSnapshot().catch(() => null);
+loadMobileSnapshot().then(renderSnapshotFreshness).catch(() => null);
+
+window.addEventListener("focus", checkLatestSnapshot);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") checkLatestSnapshot();
+});
+window.setInterval(checkLatestSnapshot, 15 * 60 * 1000);
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
