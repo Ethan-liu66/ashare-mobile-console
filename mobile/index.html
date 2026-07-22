@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17385f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="大A作战台" />
+    <title>A股趋势回调评分器</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="stylesheet" href="./styles.css?v=20260722-swing-exit3" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <section>
+          <h2 class="app-title">A股中长期趋势</h2>
+          <h4 class="app-subtitle">主线质量与流动性低点决策器</h4>
+        </section>
+        <form class="search" id="searchForm">
+          <input
+            id="stockInput"
+            name="stock"
+            autocomplete="off"
+            placeholder="输入代码或简称，如 300750 / 宁德时代"
+          />
+          <button type="submit">搜索评估</button>
+        </form>
+      </header>
+
+      <p class="search-status" id="searchStatus">
+        输入股票代码或简称后低频读取缓存/同花顺数据，优先看交易结论，再看下方拆解。
+      </p>
+
+      <section class="notice">
+        <strong>当前为私有快照版。</strong>
+        数据由 Mac 定时任务更新并发布；综合分只代表条件完整度，最终动作以入池、买点、仓位和风控结论为准。
+        <span class="pwa-status" id="pwaStatus">正在检查数据连接</span>
+      </section>
+
+      <section class="home-refresh-bar" id="homeRefreshBar">
+        <div>
+          <strong>首页数据</strong>
+          <span id="homeRefreshStatus">获取已发布的最新自选池与板块快照</span>
+        </div>
+        <button class="mini-button primary" id="refreshHome" type="button">获取最新快照</button>
+      </section>
+
+      <section class="daily-brief-view" id="dailyBriefView">
+        <div class="watchlist-head">
+          <div>
+            <p class="eyebrow">每日复盘</p>
+            <h2>今日动作</h2>
+          </div>
+          <div class="head-actions">
+            <span id="dailyBriefSummary">读取中</span>
+          </div>
+        </div>
+        <div class="daily-brief-grid">
+          <div><small>市场</small><strong id="briefMarket">待接入</strong><span id="briefMarketAction">等待确认</span></div>
+          <div><small>主线</small><strong id="briefSectors">待接入</strong><span id="briefFocusGroups">等待确认</span></div>
+          <div><small>选股池</small><strong id="briefWatchlist">待接入</strong><span id="briefPrimaryAction">等待确认</span></div>
+        </div>
+        <div class="brief-action-list" id="briefActionItems"></div>
+        <ul class="signal-list compact-list" id="briefNotes"></ul>
+      </section>
+
+      <section class="watchlist-view" id="watchlistView">
+        <div class="watchlist-head">
+          <div>
+            <p class="eyebrow">我的选股池</p>
+            <h2>作战台</h2>
+          </div>
+          <div class="head-actions">
+            <span id="watchlistSummary">读取中</span>
+          </div>
+        </div>
+        <div class="battle-groups" id="battleGroups"></div>
+        <div class="watchlist-table-wrap">
+          <table class="watchlist-table">
+            <thead>
+              <tr>
+                <th>股票</th>
+                <th>方向</th>
+                <th>评分</th>
+                <th>状态</th>
+                <th>建议</th>
+                <th>作战闭环</th>
+                <th>最新价</th>
+                <th>计划低吸区</th>
+                <th>失效位</th>
+                <th>备注</th>
+                <th>更新时间</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody id="watchlistRows"></tbody>
+          </table>
+        </div>
+        <div class="empty-watchlist" id="emptyWatchlist">
+          <strong>还没有加入选股池</strong>
+          <span>在上方搜索任意股票，进入评分详情后点击“加入选股池”。</span>
+        </div>
+      </section>
+
+      <section class="industry-insight-view" id="industryInsightView">
+        <div class="watchlist-head">
+          <div>
+            <p class="eyebrow">产业链洞察</p>
+            <h2>强链条</h2>
+          </div>
+          <div class="head-actions">
+            <span id="industryInsightSummary">读取中</span>
+          </div>
+        </div>
+        <div class="industry-chain-list" id="industryChainRows"></div>
+      </section>
+
+      <section class="sector-rank-view" id="sectorRankView">
+        <div class="watchlist-head">
+          <div>
+            <p class="eyebrow">热门板块排行</p>
+            <h2>主线温度</h2>
+          </div>
+          <span id="sectorRankSummary">读取中</span>
+        </div>
+        <div class="sector-detail hidden" id="sectorDetail" tabindex="-1"></div>
+        <div class="sector-rank-list" id="sectorRankRows"></div>
+      </section>
+
+      <div class="detail-view" id="detailView">
+      <div class="detail-toolbar">
+        <button class="mini-button" id="backToWatchlist" type="button">返回选股池</button>
+        <button class="mini-button" id="refreshKline" type="button">补齐K线</button>
+        <button class="mini-button primary" id="watchlistToggle" type="button">加入选股池</button>
+        <span id="watchlistActionStatus"></span>
+      </div>
+
+      <section class="dashboard">
+        <aside class="score-panel">
+          <div class="stock-head">
+            <div>
+              <p id="stockCode" class="muted">300750</p>
+              <h2 id="stockName">宁德时代</h2>
+            </div>
+            <span id="phaseTag" class="tag">产能释放期</span>
+          </div>
+
+          <div class="score-ring" aria-label="综合评分">
+            <span id="totalScore">76</span>
+            <small>综合分</small>
+          </div>
+
+          <div class="action-box" id="actionBox">
+            <p id="actionTitle">等待执行信号</p>
+            <span id="actionText">评分只决定跟踪优先级，买入必须通过流动性执行闸门。</span>
+          </div>
+
+          <dl class="trade-levels">
+            <div>
+              <dt>选股质量分</dt>
+              <dd id="poolScore">40</dd>
+            </div>
+            <div>
+              <dt>买点时机分</dt>
+              <dd id="entryScore">36</dd>
+            </div>
+            <div>
+              <dt>失效位</dt>
+              <dd id="invalidPrice">167.20</dd>
+            </div>
+          </dl>
+        </aside>
+
+        <section class="chart-panel">
+          <div class="panel-head">
+            <div>
+              <p class="muted" id="chartPeriodLabel">日线结构</p>
+              <h2 id="setupTitle">等待先前支撑、抛压衰竭与价格回收</h2>
+            </div>
+            <div class="tabs" role="tablist">
+              <button class="active" type="button" data-period="daily">日线</button>
+              <button type="button" data-period="weekly">周线</button>
+              <button type="button" data-period="monthly">月线</button>
+            </div>
+          </div>
+          <div class="chart-controls">
+            <label>
+              <span>开始</span>
+              <input id="chartDateFrom" type="date" />
+            </label>
+            <label>
+              <span>结束</span>
+              <input id="chartDateTo" type="date" />
+            </label>
+            <div class="range-presets" aria-label="时间范围">
+              <button type="button" data-range-months="3">3月</button>
+              <button type="button" data-range-months="6">6月</button>
+              <button type="button" data-range-months="12">1年</button>
+              <button type="button" data-range-months="all">全部</button>
+            </div>
+            <span class="chart-range-note" id="chartRangeNote">拖动图表可平移区间</span>
+          </div>
+          <canvas id="priceCanvas" width="900" height="420"></canvas>
+          <div class="legend">
+            <span><i class="line price"></i>价格</span>
+            <span><i class="line ma20"></i>MA20</span>
+            <span><i class="zone"></i>回调观察区</span>
+          </div>
+        </section>
+      </section>
+
+      <section class="grid analysis-grid">
+        <article class="module wide-module">
+          <div class="module-head">
+            <h3>交易与执行</h3>
+            <span id="decisionStatus">待计算</span>
+          </div>
+          <div class="quote-grid decision-summary">
+            <div><small>入池</small><strong id="decisionPool">待接入</strong></div>
+            <div><small>买点</small><strong id="decisionEntry">待接入</strong></div>
+            <div><small>仓位</small><strong id="decisionPosition">待接入</strong></div>
+            <div><small>风控</small><strong id="decisionRisk">待接入</strong></div>
+          </div>
+          <div class="module-divider">
+            <span>作战闭环</span>
+            <strong id="decisionLoopStatus">待确认</strong>
+          </div>
+          <div class="quote-grid decision-loop-grid">
+            <div><small>主线</small><strong id="decisionMainline">待接入</strong></div>
+            <div><small>周期</small><strong id="decisionCycle">待接入</strong></div>
+            <div><small>动作</small><strong id="decisionAction">待接入</strong></div>
+            <div><small>被动处理</small><strong id="decisionPassive">待接入</strong></div>
+            <div><small>底线</small><strong id="decisionKill">待接入</strong></div>
+            <div><small>基本面</small><strong id="decisionFundamental">待接入</strong></div>
+          </div>
+          <div class="module-divider">
+            <span>交易员检查清单</span>
+            <strong id="traderChecklistStatus">待确认</strong>
+          </div>
+          <div class="trader-checklist" id="traderChecklist"></div>
+          <div class="module-divider">
+            <span>价格计划</span>
+            <strong id="executionStatus">待计算</strong>
+          </div>
+          <div class="quote-grid execution-grid">
+            <p class="execution-group-title"><strong>低位执行</strong><span>位置、释放、回收和风控</span></p>
+            <div class="execution-primary"><small>支撑依据</small><strong id="supportBasis">待接入</strong></div>
+            <div class="execution-primary"><small>计划低吸区</small><strong id="trialRange">待接入</strong></div>
+            <div class="execution-primary"><small>当前买点阶段</small><strong id="liquidityStage">待接入</strong></div>
+            <div class="execution-primary"><small>恐慌触发价</small><strong id="panicTriggerPrice">待接入</strong></div>
+            <div class="execution-primary"><small>回收确认价</small><strong id="reclaimConfirmPrice">待接入</strong></div>
+            <div class="execution-primary"><small>试错仓位</small><strong id="trialPosition">待接入</strong></div>
+            <div class="execution-primary"><small>失效位</small><strong id="executionInvalid">待接入</strong></div>
+            <p class="execution-group-title secondary"><strong>确认与趋势</strong><span>只用于后续观察，不代替低位买点</span></p>
+            <div class="execution-secondary"><small>第二防线</small><strong id="secondarySupport">待接入</strong></div>
+            <div class="execution-secondary"><small>二次确认价</small><strong id="addConfirmPrice">待接入</strong></div>
+            <div class="execution-secondary"><small>加仓仓位</small><strong id="addPosition">待接入</strong></div>
+            <div class="execution-secondary"><small>中期趋势修复</small><strong id="repairConfirmPrice">待接入</strong></div>
+            <div class="execution-secondary"><small>距低吸区</small><strong id="trialDistance">待接入</strong></div>
+          </div>
+          <details class="evidence-details">
+            <summary><span id="setupType">流动性买点</span>依据与执行说明</summary>
+            <ul id="decisionReasons" class="signal-list compact-list"></ul>
+            <ul id="buySignals" class="signal-list compact-list secondary-signals"></ul>
+            <ul id="executionSignals" class="signal-list compact-list secondary-signals"></ul>
+          </details>
+          <div class="module-divider swing-exit-divider">
+            <span>波段卖出计划</span>
+            <strong id="swingExitStatus">待计算</strong>
+          </div>
+          <div class="quote-grid swing-exit-summary">
+            <div><small>周期共振</small><strong id="swingExitCycle">待接入</strong></div>
+            <div><small>板块共振</small><strong id="swingExitSector">待接入</strong></div>
+            <div><small>压力承接</small><strong id="swingExitAcceptance">待接入</strong></div>
+            <div><small>动态保护区</small><strong id="swingExitProtection">待接入</strong></div>
+            <div class="swing-exit-action"><small>当前动作</small><strong id="swingExitAction">待接入</strong></div>
+          </div>
+          <div class="swing-exit-levels" id="swingExitLevels"></div>
+          <details class="evidence-details">
+            <summary>压力来源与黄金分割依据</summary>
+            <ul id="swingExitSignals" class="signal-list compact-list"></ul>
+          </details>
+        </article>
+
+        <article class="module wide-module">
+          <div class="module-head">
+            <h3>三周期定位</h3>
+            <span id="timeframePosture">待计算</span>
+          </div>
+          <div class="timeframe-layout">
+            <div class="timeframe-grid">
+              <div class="timeframe-card">
+                <small>日线</small>
+                <strong id="dailyPhase">待接入</strong>
+                <span id="dailyAction">待确认</span>
+                <em id="dailyMetrics">--</em>
+              </div>
+              <div class="timeframe-card">
+                <small>周线</small>
+                <strong id="weeklyPhase">待接入</strong>
+                <span id="weeklyAction">待确认</span>
+                <em id="weeklyMetrics">--</em>
+              </div>
+              <div class="timeframe-card">
+                <small>月线</small>
+                <strong id="monthlyPhase">待接入</strong>
+                <span id="monthlyAction">待确认</span>
+                <em id="monthlyMetrics">--</em>
+              </div>
+            </div>
+            <div class="timeframe-summary">
+              <div class="timeframe-summary-head">
+                <span>小结</span>
+                <strong id="timeframeVerdict">待确认</strong>
+              </div>
+              <ul id="timeframeSignals" class="signal-list compact-list"></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="module">
+          <div class="module-head">
+            <h3>评分与技术</h3>
+            <span id="scoreStatus">可跟踪</span>
+          </div>
+          <div id="scoreBreakdown" class="breakdown"></div>
+          <div class="module-divider">
+            <span>关键指标</span>
+            <strong id="metricsStatus">日线</strong>
+          </div>
+          <div class="metric-grid">
+            <div><small>MA20</small><strong id="metricMa20">待接入</strong></div>
+            <div><small>MA60</small><strong id="metricMa60">待接入</strong></div>
+            <div><small>距MA20</small><strong id="metricNearMa20">待接入</strong></div>
+            <div><small>60日回撤</small><strong id="metricDrawdown">待接入</strong></div>
+            <div><small>风险距离</small><strong id="metricRisk">待接入</strong></div>
+            <div><small>距确认价</small><strong id="metricTriggerDistance">待接入</strong></div>
+            <div><small>量能比</small><strong id="metricVolumeRatio">待接入</strong></div>
+            <div><small>今日量/20日量</small><strong id="metricTodayVolumeRatio">待接入</strong></div>
+            <div><small>成交额</small><strong id="metricAmount">待接入</strong></div>
+            <div><small>换手率</small><strong id="metricTurnover">待接入</strong></div>
+          </div>
+        </article>
+
+        <article class="module">
+          <div class="module-head">
+            <h3>基本面与发展预期</h3>
+            <div class="module-actions">
+              <button class="mini-button" id="refreshFundamental" type="button">刷新基本面</button>
+              <span id="fundamentalStage">待接入</span>
+            </div>
+          </div>
+          <div class="quote-grid compact-grid">
+            <div><small>基本面分</small><strong id="fundamentalScore">待接入</strong></div>
+            <div><small>夯实度</small><strong id="fundamentalQuality">待接入</strong></div>
+            <div><small>增长</small><strong id="fundamentalGrowth">待接入</strong></div>
+            <div><small>盈利质量</small><strong id="fundamentalProfit">待接入</strong></div>
+            <div><small>现金流/负债</small><strong id="fundamentalCashDebt">待接入</strong></div>
+            <div><small>下一步验证</small><strong id="fundamentalNext">待接入</strong></div>
+          </div>
+          <div class="module-divider">
+            <span>扩产阶段</span>
+            <strong id="capacityStage">待接入</strong>
+          </div>
+          <ul id="fundamentalSignals" class="signal-list compact-list"></ul>
+          <details class="evidence-details">
+            <summary>产业位置与扩产依据</summary>
+            <ul id="capacitySignals" class="signal-list compact-list"></ul>
+          </details>
+        </article>
+
+        <article class="module wide-module">
+          <div class="module-head">
+            <h3>主线与市场环境</h3>
+            <span id="strengthStatus">待计算</span>
+          </div>
+          <div class="quote-grid compact-grid">
+            <div><small>匹配方向</small><strong id="strengthGroup">待接入</strong></div>
+            <div><small>个股RPS50日 / 板块RPS20日</small><strong><span id="strengthStockRps">待接入</span> / <span id="strengthGroupRps">待接入</span></strong></div>
+            <div><small>趋势/热度</small><strong><span id="strengthTrend">待接入</span> / <span id="strengthHeat">待接入</span></strong></div>
+            <div><small>板块阶段</small><strong id="sectorPhase">待接入</strong></div>
+            <div><small>扩散质量</small><strong id="sectorBreadth">待接入</strong></div>
+            <div><small>板块策略</small><strong id="sectorAction">待接入</strong></div>
+            <div><small>阶段顶部风险</small><strong id="stageTopRisk">待接入</strong></div>
+            <div><small>入池优先级</small><strong id="strengthPriority">待接入</strong></div>
+            <div><small>红线/量能</small><strong><span id="strengthRedLines">待接入</span> / <span id="strengthAmount">待接入</span></strong></div>
+            <div><small>样本覆盖</small><strong id="strengthSample">待接入</strong></div>
+          </div>
+          <div class="module-divider">
+            <span>板块RPS趋势</span>
+            <strong id="sectorTrendSummary">待确认</strong>
+          </div>
+          <div class="sector-trend" id="sectorTrendChart">
+            <div class="sector-trend-row">
+              <span>5日</span>
+              <div><i id="sectorRps5Bar"></i></div>
+              <strong id="sectorRps5Value">--</strong>
+            </div>
+            <div class="sector-trend-row">
+              <span>10日</span>
+              <div><i id="sectorRps10Bar"></i></div>
+              <strong id="sectorRps10Value">--</strong>
+            </div>
+            <div class="sector-trend-row">
+              <span>20日</span>
+              <div><i id="sectorRps20Bar"></i></div>
+              <strong id="sectorRps20Value">--</strong>
+            </div>
+            <div class="sector-trend-row">
+              <span>50日</span>
+              <div><i id="sectorRps50Bar"></i></div>
+              <strong id="sectorRps50Value">--</strong>
+            </div>
+          </div>
+          <div class="module-divider">
+            <span>市场仓位开关</span>
+            <button class="mini-button" id="refreshSentiment" type="button">刷新</button>
+          </div>
+          <div class="quote-grid compact-grid">
+            <div><small>状态/上涨占比</small><strong><span id="marketState">待刷新</span> / <span id="marketUpRatio">待接入</span></strong></div>
+            <div><small>建议仓位/动作</small><strong><span id="marketPosition">待接入</span> / <span id="marketAction">待接入</span></strong></div>
+            <div><small>涨/平/跌</small><strong id="marketBreadth">待接入</strong></div>
+            <div><small>涨停/跌停</small><strong id="marketLimits">待接入</strong></div>
+          </div>
+          <details class="evidence-details">
+            <summary>查看主线与市场依据</summary>
+            <ul id="strengthSignals" class="signal-list compact-list"></ul>
+            <ul id="marketSignals" class="signal-list compact-list secondary-signals"></ul>
+          </details>
+        </article>
+      </section>
+
+      <section class="system-strip">
+        <div>
+          <span>数据源</span>
+          <strong id="providerMode">读取中</strong>
+        </div>
+        <div>
+          <span>当前价</span>
+          <strong id="quotePrice">待接入</strong>
+        </div>
+        <div>
+          <span>涨跌幅</span>
+          <strong id="quotePct">待接入</strong>
+        </div>
+        <div>
+          <span>换手率</span>
+          <strong id="quoteTurnover">待接入</strong>
+        </div>
+        <div>
+          <span>行情源</span>
+          <strong id="quoteSource">未启用</strong>
+        </div>
+        <ul id="providerSignals"></ul>
+      </section>
+      </div>
+    </main>
+
+    <script>window.APP_STATIC_SNAPSHOT_MODE = true;</script>
+    <script src="./app.js?v=20260722-mobile-pwa3"></script>
+  </body>
+</html>
