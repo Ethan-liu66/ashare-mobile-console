@@ -340,6 +340,7 @@ let activePeriod = "daily";
 let chartRange = { from: null, to: null };
 let chartRangeStockCode = null;
 let chartDrag = null;
+let publishedSnapshotStale = false;
 
 function findStock(query) {
   const clean = query.trim().toLowerCase();
@@ -1008,12 +1009,14 @@ async function refreshHomeData() {
     if (staticSnapshotMode) {
       const previousUpdatedAt = mobileSnapshot?.updatedAt || mobileSnapshot?.completedAt;
       const snapshot = await loadMobileSnapshot(true);
-      renderPublishedSnapshot(snapshot);
+      const stale = renderPublishedSnapshot(snapshot);
       if (homeRefreshStatus) {
         const currentUpdatedAt = snapshot.updatedAt || snapshot.completedAt;
-        homeRefreshStatus.textContent = previousUpdatedAt && previousUpdatedAt === currentUpdatedAt
-          ? `已是最新版本 · ${currentUpdatedAt || "时间未知"}`
-          : `已获取新快照 · ${currentUpdatedAt || "时间未知"}`;
+        homeRefreshStatus.textContent = stale
+          ? `云端仍是旧行情 · ${currentUpdatedAt || "时间未知"} · 禁止按旧点位新开仓`
+          : previousUpdatedAt && previousUpdatedAt === currentUpdatedAt
+            ? `已是最新版本 · ${currentUpdatedAt || "时间未知"}`
+            : `已获取新快照 · ${currentUpdatedAt || "时间未知"}`;
       }
       return;
     }
@@ -1053,17 +1056,57 @@ function formatSnapshotTime(value) {
   });
 }
 
+function localDateKey(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function expectedMarketDate(now = new Date()) {
+  const expected = new Date(now);
+  const minutes = now.getHours() * 60 + now.getMinutes();
+  if (expected.getDay() === 0 || expected.getDay() === 6 || minutes < 9 * 60 + 30) {
+    do {
+      expected.setDate(expected.getDate() - 1);
+    } while (expected.getDay() === 0 || expected.getDay() === 6);
+  }
+  return localDateKey(expected);
+}
+
+function isPublishedQuoteStale(value) {
+  if (!value) return true;
+  const parsed = new Date(String(value).replace(" ", "T"));
+  if (Number.isNaN(parsed.getTime())) return true;
+  const now = new Date();
+  if (localDateKey(parsed) < expectedMarketDate(now)) return true;
+  const minutes = now.getHours() * 60 + now.getMinutes();
+  const trading = now.getDay() >= 1 && now.getDay() <= 5
+    && ((minutes >= 9 * 60 + 30 && minutes <= 11 * 60 + 30)
+      || (minutes >= 13 * 60 && minutes <= 15 * 60 + 10));
+  return trading && now.getTime() - parsed.getTime() > 100 * 60 * 1000;
+}
+
 function renderSnapshotFreshness(snapshot) {
   const status = snapshot?.dataStatus || {};
+  const quoteAsOf = status.quoteAsOf || snapshot?.updatedAt;
+  publishedSnapshotStale = isPublishedQuoteStale(quoteAsOf);
+  homeRefreshBar?.classList.toggle("stale-data", publishedSnapshotStale);
   if (homePriceFreshness) {
-    homePriceFreshness.textContent = formatSnapshotTime(status.quoteAsOf || snapshot?.updatedAt);
+    homePriceFreshness.textContent = `${publishedSnapshotStale ? "已过期 · " : ""}${formatSnapshotTime(quoteAsOf)}`;
   }
   if (homeAnalysisFreshness) {
     homeAnalysisFreshness.textContent = formatSnapshotTime(status.analysisAsOf || snapshot?.completedAt || snapshot?.updatedAt);
   }
   if (homeLevelBasis) {
-    homeLevelBasis.textContent = status.levelBasis || (snapshot?.mode === "close" ? "收盘确认" : "盘中暂定");
+    homeLevelBasis.textContent = publishedSnapshotStale
+      ? "旧数据，禁止作为新交易依据"
+      : status.levelBasis || (snapshot?.mode === "close" ? "收盘确认" : "盘中暂定");
   }
+  if (publishedSnapshotStale && homeRefreshStatus) {
+    homeRefreshStatus.textContent = "行情源尚未更新，当前只保留上一版复盘，不生成新交易动作";
+  }
+  return publishedSnapshotStale;
 }
 
 function renderPublishedSnapshot(snapshot) {
@@ -1071,7 +1114,7 @@ function renderPublishedSnapshot(snapshot) {
   renderDailyBrief(snapshot.dailyBrief);
   renderIndustryInsight(snapshot.industryInsight);
   renderSectorRankings(snapshot.sectorRankings);
-  renderSnapshotFreshness(snapshot);
+  return renderSnapshotFreshness(snapshot);
 }
 
 async function checkLatestSnapshot() {
@@ -1080,10 +1123,14 @@ async function checkLatestSnapshot() {
   try {
     const snapshot = await loadMobileSnapshot(true);
     const currentUpdatedAt = snapshot.updatedAt || snapshot.completedAt;
-    renderSnapshotFreshness(snapshot);
+    const stale = renderSnapshotFreshness(snapshot);
     if (currentUpdatedAt !== previousUpdatedAt) {
       renderPublishedSnapshot(snapshot);
-      if (homeRefreshStatus) homeRefreshStatus.textContent = `后台发现新快照 · ${currentUpdatedAt}`;
+      if (homeRefreshStatus) {
+        homeRefreshStatus.textContent = stale
+          ? `后台快照仍已过期 · ${currentUpdatedAt}`
+          : `后台发现新快照 · ${currentUpdatedAt}`;
+      }
     }
   } catch {
     // Offline fallback remains available through the service worker.

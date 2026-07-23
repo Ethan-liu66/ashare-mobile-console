@@ -292,6 +292,21 @@ h4 {
   line-height: 1.45;
 }
 
+.home-refresh-bar.stale-data {
+  border-color: #e7b3b3;
+  background: #fff8f8;
+}
+
+.home-refresh-bar.stale-data > div:first-child strong,
+.home-refresh-bar.stale-data #homePriceFreshness,
+.home-refresh-bar.stale-data #homeLevelBasis {
+  color: #bd3434;
+}
+
+.home-refresh-bar.stale-data .freshness-grid > span {
+  background: #fff;
+}
+
 .hidden {
   display: none !important;
 }

@@ -1,11 +1,11 @@
-const SHELL_CACHE = "ashare-shell-20260723-freshness-1";
-const DATA_CACHE = "ashare-data-20260723-freshness-1";
+const SHELL_CACHE = "ashare-shell-20260723-freshness-2";
+const DATA_CACHE = "ashare-data-20260723-freshness-2";
 const ROOT_URL = new URL("./", self.location.href);
 const MOBILE_URL = new URL("mobile/index.html", ROOT_URL).href;
 const APP_SHELL = [
   MOBILE_URL,
-  new URL("mobile/styles.css?v=20260723-freshness1", ROOT_URL).href,
-  new URL("mobile/app.js?v=20260723-freshness1", ROOT_URL).href,
+  new URL("mobile/styles.css?v=20260723-freshness2", ROOT_URL).href,
+  new URL("mobile/app.js?v=20260723-freshness2", ROOT_URL).href,
   new URL("mobile/manifest.webmanifest", ROOT_URL).href,
   new URL("icons/icon-192.png", ROOT_URL).href,
   new URL("icons/icon-512.png", ROOT_URL).href,
