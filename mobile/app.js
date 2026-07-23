@@ -146,6 +146,7 @@ const weights = {
 
 let mobileSnapshot = null;
 let mobileSnapshotLoadPromise = null;
+let mobileSnapshotDigest = "";
 let passphrasePromptPromise = null;
 const staticSnapshotMode = window.APP_STATIC_SNAPSHOT_MODE === true;
 
@@ -236,6 +237,9 @@ async function loadMobileSnapshot(force = false) {
     const response = await fetch(requestUrl, { cache: "no-store" });
     if (!response.ok) throw new Error(`快照 ${response.status}`);
     const payload = await response.json();
+    if (staticSnapshotMode && payload.sourceDigest) {
+      mobileSnapshotDigest = payload.sourceDigest;
+    }
     mobileSnapshot = staticSnapshotMode && payload.ciphertext
       ? await decryptMobileSnapshot(payload)
       : payload;
@@ -246,6 +250,29 @@ async function loadMobileSnapshot(force = false) {
   } finally {
     mobileSnapshotLoadPromise = null;
   }
+}
+
+async function loadLatestPublishedSnapshot() {
+  if (!staticSnapshotMode) {
+    return { snapshot: await loadMobileSnapshot(true), unchanged: false };
+  }
+  try {
+    const metaUrl = `../data/mobile_snapshot.meta.json?check=${Date.now()}`;
+    const response = await fetch(metaUrl, { cache: "no-store" });
+    if (response.ok) {
+      const metadata = await response.json();
+      if (
+        mobileSnapshot
+        && mobileSnapshotDigest
+        && metadata.sourceDigest === mobileSnapshotDigest
+      ) {
+        return { snapshot: mobileSnapshot, unchanged: true };
+      }
+    }
+  } catch {
+    // Fall through to the encrypted snapshot and its offline cache.
+  }
+  return { snapshot: await loadMobileSnapshot(true), unchanged: false };
 }
 
 async function snapshotFallback(url) {
@@ -1008,13 +1035,13 @@ async function refreshHomeData() {
   try {
     if (staticSnapshotMode) {
       const previousUpdatedAt = mobileSnapshot?.updatedAt || mobileSnapshot?.completedAt;
-      const snapshot = await loadMobileSnapshot(true);
+      const { snapshot, unchanged } = await loadLatestPublishedSnapshot();
       const stale = renderPublishedSnapshot(snapshot);
       if (homeRefreshStatus) {
         const currentUpdatedAt = snapshot.updatedAt || snapshot.completedAt;
         homeRefreshStatus.textContent = stale
           ? `云端仍是旧行情 · ${currentUpdatedAt || "时间未知"} · 禁止按旧点位新开仓`
-          : previousUpdatedAt && previousUpdatedAt === currentUpdatedAt
+          : unchanged || (previousUpdatedAt && previousUpdatedAt === currentUpdatedAt)
             ? `已是最新版本 · ${currentUpdatedAt || "时间未知"}`
             : `已获取新快照 · ${currentUpdatedAt || "时间未知"}`;
       }
@@ -1121,10 +1148,10 @@ async function checkLatestSnapshot() {
   if (!staticSnapshotMode || !navigator.onLine || document.visibilityState === "hidden") return;
   const previousUpdatedAt = mobileSnapshot?.updatedAt || mobileSnapshot?.completedAt;
   try {
-    const snapshot = await loadMobileSnapshot(true);
+    const { snapshot, unchanged } = await loadLatestPublishedSnapshot();
     const currentUpdatedAt = snapshot.updatedAt || snapshot.completedAt;
     const stale = renderSnapshotFreshness(snapshot);
-    if (currentUpdatedAt !== previousUpdatedAt) {
+    if (!unchanged && currentUpdatedAt !== previousUpdatedAt) {
       renderPublishedSnapshot(snapshot);
       if (homeRefreshStatus) {
         homeRefreshStatus.textContent = stale

@@ -12,6 +12,9 @@ const runtimeData = process.env.APP_DATA_DIR
 const source = process.argv[2] || path.join(runtimeData, "mobile_snapshot.json");
 const target = process.argv[3] || path.join(root, "mobile-site/public/data/mobile_snapshot.enc.json");
 const passphrase = process.env.ASHARE_MOBILE_PASSPHRASE;
+const metadataTarget = target.endsWith(".enc.json")
+  ? target.replace(/\.enc\.json$/, ".meta.json")
+  : `${target}.meta.json`;
 
 if (!passphrase || passphrase.length < 12) {
   throw new Error("ASHARE_MOBILE_PASSPHRASE must contain at least 12 characters");
@@ -24,10 +27,25 @@ if (!parsed.ok || !parsed.watchlist?.items?.length || !parsed.updatedAt) {
 }
 
 const sourceDigest = crypto.createHash("sha256").update(plaintext).digest("hex");
+const metadata = {
+  version: 1,
+  sourceDigest,
+  updatedAt: parsed.updatedAt,
+  watchlistCount: parsed.watchlist.items.length,
+};
+
+function writeMetadata() {
+  fs.mkdirSync(path.dirname(metadataTarget), { recursive: true });
+  const temporary = `${metadataTarget}.tmp`;
+  fs.writeFileSync(temporary, JSON.stringify(metadata));
+  fs.renameSync(temporary, metadataTarget);
+}
+
 if (fs.existsSync(target)) {
   try {
     const current = JSON.parse(fs.readFileSync(target, "utf8"));
     if (current.sourceDigest === sourceDigest) {
+      writeMetadata();
       console.log(JSON.stringify({
         ok: true,
         unchanged: true,
@@ -66,6 +84,7 @@ fs.mkdirSync(path.dirname(target), { recursive: true });
 const temporary = `${target}.tmp`;
 fs.writeFileSync(temporary, JSON.stringify(payload));
 fs.renameSync(temporary, target);
+writeMetadata();
 console.log(JSON.stringify({
   ok: true,
   updatedAt: payload.updatedAt,

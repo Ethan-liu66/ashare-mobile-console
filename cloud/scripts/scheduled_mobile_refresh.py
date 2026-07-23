@@ -71,11 +71,35 @@ def evaluation_quote_providers(evaluations):
     )
 
 
+def expected_market_quote_date(now):
+    candidate = now.date()
+    minutes = now.hour * 60 + now.minute
+    if candidate.weekday() >= 5 or minutes < 9 * 60 + 15:
+        candidate = candidate.fromordinal(candidate.toordinal() - 1)
+    while (
+        candidate.weekday() >= 5
+        or candidate.isoformat() in server.MARKET_HOLIDAYS
+    ):
+        candidate = candidate.fromordinal(candidate.toordinal() - 1)
+    return candidate.isoformat()
+
+
+def current_quote_count(evaluations, expected_date):
+    count = 0
+    for evaluation in evaluations.values():
+        quote = (evaluation.get("stock") or {}).get("quote") or {}
+        parsed = server.parse_kline_date(quote.get("quoteTime"))
+        if parsed and parsed.isoformat() == expected_date:
+            count += 1
+    return count
+
+
 def run(
     mode,
     force=False,
     require_fresh_bridge_minutes=None,
     minimum_evaluation_ratio=0,
+    minimum_current_quote_ratio=0,
 ):
     now = datetime.now()
     if not force and not is_scheduled_trading_day(now):
@@ -115,6 +139,15 @@ def run(
                 f"{evaluated_count}/{len(evaluations)}，低于发布门槛"
                 f"{minimum_evaluation_ratio:.0%}，保留上一版手机快照。"
             )
+        expected_quote_date = expected_market_quote_date(now)
+        fresh_quote_count = current_quote_count(evaluations, expected_quote_date)
+        current_quote_ratio = fresh_quote_count / max(1, len(evaluations))
+        if current_quote_ratio < minimum_current_quote_ratio:
+            raise RuntimeError(
+                f"应有交易日{expected_quote_date}的报价仅"
+                f"{fresh_quote_count}/{len(evaluations)}，低于发布门槛"
+                f"{minimum_current_quote_ratio:.0%}，保留上一版手机快照。"
+            )
         sector_details = {
             group: server.build_sector_detail(group)
             for group, _keywords in server.THEME_GROUP_RULES
@@ -147,6 +180,8 @@ def run(
                 "quoteProviders": evaluation_quote_providers(evaluations),
                 "evaluatedCount": evaluated_count,
                 "evaluationCount": len(evaluations),
+                "expectedQuoteDate": expected_quote_date,
+                "currentQuoteCount": fresh_quote_count,
             },
             "provider": {"provider": server.provider_status(), "ths": server.provider_status()},
             "evaluations": evaluations,
@@ -190,6 +225,12 @@ def main():
         default=0,
         help="完整评分比例低于该值时拒绝发布，范围0-1",
     )
+    parser.add_argument(
+        "--minimum-current-quote-ratio",
+        type=float,
+        default=0,
+        help="应有交易日报价比例低于该值时拒绝发布，范围0-1",
+    )
     args = parser.parse_args()
 
     LOCK_PATH.touch(exist_ok=True)
@@ -204,6 +245,7 @@ def main():
             force=args.force,
             require_fresh_bridge_minutes=args.require_fresh_bridge_minutes,
             minimum_evaluation_ratio=args.minimum_evaluation_ratio,
+            minimum_current_quote_ratio=args.minimum_current_quote_ratio,
         )
 
     if result.get("skipped"):
