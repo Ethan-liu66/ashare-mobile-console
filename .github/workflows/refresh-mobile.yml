@@ -45,7 +45,6 @@ jobs:
       PROVIDER_REQUEST_RETRIES: "1"
       PROVIDER_RETRY_DELAY_SECONDS: "8"
       ASHARE_MOBILE_PASSPHRASE: ${{ secrets.ASHARE_MOBILE_PASSPHRASE }}
-      ASHARE_WATCHLIST_JSON: ${{ secrets.ASHARE_WATCHLIST_JSON }}
 
     steps:
       - uses: actions/checkout@v4
@@ -74,30 +73,11 @@ jobs:
           fi
           echo "mode=$mode" >> "$GITHUB_OUTPUT"
 
-      - name: Restore private watchlist
-        shell: bash
+      - name: Restore latest encrypted watchlist
         run: |
-          if [[ -z "$ASHARE_WATCHLIST_JSON" ]]; then
-            echo "ASHARE_WATCHLIST_JSON is not configured" >&2
-            exit 1
-          fi
-          python - <<'PY'
-          import json
-          import os
-          from pathlib import Path
-
-          payload = json.loads(os.environ["ASHARE_WATCHLIST_JSON"])
-          items = payload.get("items") or []
-          if not items:
-              raise SystemExit("watchlist secret contains no items")
-          target = Path(os.environ["APP_DATA_DIR"]) / "watchlist.json"
-          target.parent.mkdir(parents=True, exist_ok=True)
-          target.write_text(
-              json.dumps(payload, ensure_ascii=False, indent=2),
-              encoding="utf-8",
-          )
-          print(f"Loaded {len(items)} watchlist items")
-          PY
+          node cloud/scripts/extract_watchlist_from_encrypted_snapshot.mjs \
+            data/mobile_snapshot.enc.json \
+            cloud/data/watchlist.json
 
       - name: Recalculate prices, levels and advice
         run: |
