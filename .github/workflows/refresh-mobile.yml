@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
+      TZ: "Asia/Shanghai"
       APP_DATA_DIR: ${{ github.workspace }}/cloud/data
       TDX_BRIDGE_DIR: ${{ github.workspace }}/cloud/data/tdx_seed
       ENABLE_THS: "0"
