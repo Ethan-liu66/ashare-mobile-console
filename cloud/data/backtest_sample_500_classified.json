@@ -1,0 +1,8485 @@
+[
+  {
+    "code": "300001",
+    "name": "特锐德",
+    "market": "创业板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "高压快充",
+      "智能电网",
+      "虚拟电厂"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300013",
+    "name": "新宁物流",
+    "market": "创业板",
+    "industry": "物流",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "物流",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "跨境电商",
+      "统一大市场",
+      "冷链物流"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300014",
+    "name": "亿纬锂能",
+    "market": "创业板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "动力电池",
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "钠离子电池",
+      "动力电池回收",
+      "盐湖提锂"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300024",
+    "name": "机器人",
+    "market": "创业板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "人形机器人",
+      "新型工业化",
+      "机器人概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300026",
+    "name": "红日药业",
+    "market": "创业板",
+    "industry": "中药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "中药",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "仿制药一致性评价",
+      "流感",
+      "创新药"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300034",
+    "name": "钢研高纳",
+    "market": "创业板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "航空发动机",
+      "大飞机",
+      "商业航天"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300039",
+    "name": "上海凯宝",
+    "market": "创业板",
+    "industry": "中药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "中药",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "医药电商",
+      "流感",
+      "肝炎概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300045",
+    "name": "华力创通",
+    "market": "创业板",
+    "industry": "军工电子",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "卫星通信",
+    "industryGroup": "军工电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "军工信息化",
+      "卫星导航",
+      "军民融合"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300056",
+    "name": "中创环保",
+    "market": "创业板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "金属回收",
+      "垃圾分类",
+      "污水处理"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300124",
+    "name": "汇川技术",
+    "market": "创业板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "工业自动化/算力电源",
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "人形机器人",
+      "一体化压铸",
+      "新型工业化"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300140",
+    "name": "节能环境",
+    "market": "创业板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "生物质能发电",
+      "医疗废物处理",
+      "绿色电力"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300179",
+    "name": "四方达",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "培育钻石",
+      "第三代半导体",
+      "海工装备"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300189",
+    "name": "神农种业",
+    "market": "创业板",
+    "industry": "种植业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "种植业",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "转基因",
+      "玉米",
+      "粮食概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300223",
+    "name": "北京君正",
+    "market": "创业板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体存储",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "存储芯片",
+      "汽车芯片",
+      "MCU芯片"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300226",
+    "name": "上海钢联",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "区块链",
+      "多模态AI",
+      "AI语料"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300247",
+    "name": "融捷健康",
+    "market": "创业板",
+    "industry": "其他家电",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他家电",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "体育产业",
+      "养老概念",
+      "跨境电商"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300251",
+    "name": "光线传媒",
+    "market": "创业板",
+    "industry": "影视院线",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "影视院线",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "短剧游戏",
+      "AI视频",
+      "文化传媒概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300274",
+    "name": "阳光电源",
+    "market": "创业板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "逆变器/储能",
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "宁德时代概念",
+      "氢能源",
+      "同花顺漂亮100"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300292",
+    "name": "吴通控股",
+    "market": "创业板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "光纤概念",
+      "5G",
+      "数据中心(AIDC)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300300",
+    "name": "海峡创新",
+    "market": "创业板",
+    "industry": "IT服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "IT服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "家庭医生",
+      "海峡两岸",
+      "独角兽概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300308",
+    "name": "中际旭创",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "F5G概念",
+      "芯片概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300323",
+    "name": "华灿光电",
+    "market": "创业板",
+    "industry": "光学光电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光学光电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "MicroLED概念",
+      "MiniLED",
+      "第三代半导体"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300327",
+    "name": "中颖电子",
+    "market": "创业板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "汽车芯片",
+      "MCU芯片",
+      "芯片概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300341",
+    "name": "麦克奥迪",
+    "market": "创业板",
+    "industry": "医疗器械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗器械",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "电力物联网",
+      "人工智能",
+      "智能电网"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300345",
+    "name": "华民股份",
+    "market": "创业板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "BC电池",
+      "TOPCON电池",
+      "HJT电池"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300347",
+    "name": "泰格医药",
+    "market": "创业板",
+    "industry": "医疗服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "CRO概念",
+      "生物疫苗",
+      "创新药"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300354",
+    "name": "东华测试",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "人形机器人",
+      "新型工业化",
+      "航空发动机"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300365",
+    "name": "恒华科技",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "电力物联网",
+      "虚拟电厂",
+      "智慧政务"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300383",
+    "name": "光环新网",
+    "market": "创业板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "数据中心",
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "算力租赁",
+      "MLOps概念",
+      "华为昇腾"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300390",
+    "name": "天华新能",
+    "market": "创业板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "固态电池",
+      "小金属概念",
+      "2026一季报预增"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300394",
+    "name": "天孚通信",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "光纤概念",
+      "先进封装"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300403",
+    "name": "汉宇集团",
+    "market": "创业板",
+    "industry": "家电零部件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人/自动化",
+    "industryGroup": "家电零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "减速器",
+      "汽车热管理",
+      "人形机器人"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300409",
+    "name": "道氏技术",
+    "market": "创业板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "钠离子电池",
+      "动力电池回收",
+      "金属钴"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300416",
+    "name": "苏试试验",
+    "market": "创业板",
+    "industry": "专业服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "先进封装",
+      "商业航天",
+      "汽车电子"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300420",
+    "name": "五洋自控",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "物联网",
+      "智慧城市",
+      "新型工业化"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300423",
+    "name": "昇辉科技",
+    "market": "创业板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "智慧灯杆",
+      "智能电网",
+      "安防"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300424",
+    "name": "航新科技",
+    "market": "创业板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "低空经济",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "大飞机",
+      "航空发动机",
+      "成飞概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300434",
+    "name": "金石亚药",
+    "market": "创业板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "流感",
+      "维生素",
+      "仿制药一致性评价"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300442",
+    "name": "润泽科技",
+    "market": "创业板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "数据中心",
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "算力租赁",
+      "东数西算(算力)",
+      "数据中心(AIDC)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300443",
+    "name": "金雷股份",
+    "market": "创业板",
+    "industry": "风电设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "风电设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "风电",
+      "2025年报预增",
+      "海工装备"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300453",
+    "name": "三鑫医疗",
+    "market": "创业板",
+    "industry": "医疗器械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗器械",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "医疗器械概念",
+      "工业互联网"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300455",
+    "name": "航天智装",
+    "market": "创业板",
+    "industry": "计算机设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "计算机设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "卫星导航",
+      "商业航天",
+      "军工"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300475",
+    "name": "香农芯创",
+    "market": "创业板",
+    "industry": "其他电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "存储芯片",
+      "芯片概念",
+      "数据中心(AIDC)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300476",
+    "name": "胜宏科技",
+    "market": "创业板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB/CPO",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "PCB概念",
+      "共封装光学(CPO)",
+      "富士康概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300485",
+    "name": "赛升药业",
+    "market": "创业板",
+    "industry": "生物制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "生物制品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "创新药",
+      "流感",
+      "肝炎概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300502",
+    "name": "新易盛",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "芯片概念",
+      "5G"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300525",
+    "name": "博思软件",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "财税数字化",
+      "AI应用",
+      "数字货币"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300539",
+    "name": "横河精密",
+    "market": "创业板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "PEEK材料",
+      "减速器",
+      "专精特新"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300548",
+    "name": "长芯博创",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "F5G概念",
+      "光纤概念",
+      "共封装光学(CPO)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300550",
+    "name": "和仁科技",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "家庭医生",
+      "AI应用",
+      "鸿蒙概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300567",
+    "name": "精测电子",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体检测",
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "国家大基金持股",
+      "中芯国际概念",
+      "存储芯片"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300570",
+    "name": "太辰光",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "光纤概念",
+      "F5G概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300604",
+    "name": "长川科技",
+    "market": "创业板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体测试",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "国家大基金持股",
+      "存储芯片",
+      "芯片概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300608",
+    "name": "思特奇",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "云办公",
+      "华为欧拉",
+      "算力租赁"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300616",
+    "name": "尚品宅配",
+    "market": "创业板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "空间计算",
+      "AI智能体",
+      "MR(混合现实)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300620",
+    "name": "光库科技",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "光纤概念",
+      "共封装光学(CPO)",
+      "芯片概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300655",
+    "name": "晶瑞电材",
+    "market": "创业板",
+    "industry": "电子化学品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电子化学品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "中芯国际概念",
+      "国家大基金持股",
+      "存储芯片"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300657",
+    "name": "弘信电子",
+    "market": "创业板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "算力租赁",
+      "云计算",
+      "智谱AI"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300693",
+    "name": "盛弘股份",
+    "market": "创业板",
+    "industry": "其他电源设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他电源设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "数据中心(AIDC)",
+      "高压快充",
+      "虚拟电厂"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300694",
+    "name": "蠡湖股份",
+    "market": "创业板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "国企改革",
+      "燃料电池",
+      "机器人概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300717",
+    "name": "华信新材",
+    "market": "创业板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "可降解塑料",
+      "ETC",
+      "回购增持再贷款概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300718",
+    "name": "长盛轴承",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "人形机器人",
+      "汽车热管理",
+      "特斯拉概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300719",
+    "name": "安达维尔",
+    "market": "创业板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "低空经济",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "军工信息化",
+      "军民融合",
+      "成飞概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300724",
+    "name": "捷佳伟创",
+    "market": "创业板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "光伏设备",
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "BC电池",
+      "HJT电池",
+      "TOPCON电池"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300750",
+    "name": "宁德时代",
+    "market": "创业板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "动力电池",
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "钠离子电池",
+      "同花顺漂亮100",
+      "动力电池回收"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300751",
+    "name": "迈为股份",
+    "market": "创业板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "光伏设备",
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "钙钛矿电池",
+      "HJT电池",
+      "存储芯片"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300757",
+    "name": "罗博特科",
+    "market": "创业板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "光纤概念",
+      "华为海思概念股"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300766",
+    "name": "每日互动",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "智谱AI",
+      "快手概念",
+      "多模态AI"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300768",
+    "name": "迪普科技",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "数据安全",
+      "华为鲲鹏",
+      "鸿蒙概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300775",
+    "name": "三角防务",
+    "market": "创业板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "军工材料",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "大飞机",
+      "航空发动机",
+      "军民融合"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300779",
+    "name": "惠城环保",
+    "market": "创业板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "稀土永磁",
+      "固废处理",
+      "融资融券"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300782",
+    "name": "卓胜微",
+    "market": "创业板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体设计",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "先进封装",
+      "WiFi 6",
+      "6G概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300784",
+    "name": "利安科技",
+    "market": "创业板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "三胎概念",
+      "IP经济(谷子经济)",
+      "旅游概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300793",
+    "name": "佳禾智能",
+    "market": "创业板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "星闪概念",
+      "智能音箱",
+      "语音技术"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300803",
+    "name": "指南针",
+    "market": "创业板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "互联网金融",
+      "AI应用",
+      "参股券商"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300811",
+    "name": "铂科新材",
+    "market": "创业板",
+    "industry": "金属新材料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "金属新材料",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "存储芯片",
+      "芯片概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300862",
+    "name": "蓝盾光电",
+    "market": "创业板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "传感器",
+      "芯片概念",
+      "专精特新"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300897",
+    "name": "山科智能",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "数据要素",
+      "净水概念",
+      "智慧城市"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300900",
+    "name": "广联航空",
+    "market": "创业板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "低空经济",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "航空发动机",
+      "卫星导航",
+      "成飞概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300905",
+    "name": "宝丽迪",
+    "market": "创业板",
+    "industry": "化学纤维",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学纤维",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "染料",
+      "足球概念",
+      "专精特新"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300913",
+    "name": "兆龙互连",
+    "market": "创业板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "CPO/光模块",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "铜缆高速连接",
+      "光纤概念",
+      "共封装光学(CPO)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300917",
+    "name": "特发服务",
+    "market": "创业板",
+    "industry": "房地产服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "物业管理",
+      "深圳国企改革",
+      "房屋检测"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300933",
+    "name": "中辰股份",
+    "market": "创业板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "智能电网",
+      "特高压",
+      "算力租赁"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300957",
+    "name": "贝泰妮",
+    "market": "创业板",
+    "industry": "化妆品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化妆品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "三胎概念",
+      "医美概念",
+      "跨境电商"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300960",
+    "name": "通业科技",
+    "market": "创业板",
+    "industry": "轨交设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "轨交设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "高铁",
+      "电力物联网",
+      "物联网"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300969",
+    "name": "恒帅股份",
+    "market": "创业板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "人形机器人",
+      "汽车热管理",
+      "比亚迪概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300983",
+    "name": "尤安设计",
+    "market": "创业板",
+    "industry": "工程咨询服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程咨询服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "新型城镇化",
+      "融资融券"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300984",
+    "name": "金沃股份",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "2025年报预增",
+      "融资融券",
+      "深股通"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300991",
+    "name": "创益通",
+    "market": "创业板",
+    "industry": "其他电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "新型烟草(电子烟)",
+      "消费电子概念",
+      "专精特新"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "300997",
+    "name": "欢乐家",
+    "market": "创业板",
+    "industry": "饮料乳品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "饮料乳品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "乳业",
+      "网红经济",
+      "广东自贸区"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301005",
+    "name": "超捷股份",
+    "market": "创业板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "航空发动机",
+      "卫星导航",
+      "商业航天"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301008",
+    "name": "宏昌科技",
+    "market": "创业板",
+    "industry": "家电零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家电零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "减速器",
+      "人形机器人",
+      "专精特新"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301032",
+    "name": "新柴股份",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "农机",
+      "乡村振兴",
+      "一带一路"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301033",
+    "name": "迈普医学",
+    "market": "创业板",
+    "industry": "医疗器械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗器械",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "牙科医疗",
+      "医疗器械概念",
+      "医美概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301049",
+    "name": "超越科技",
+    "market": "创业板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "医疗废物处理",
+      "汽车拆解概念",
+      "固废处理"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301051",
+    "name": "信濠光电",
+    "market": "创业板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "柔性屏(折叠屏)",
+      "智能穿戴",
+      "消费电子概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301135",
+    "name": "瑞德智能",
+    "market": "创业板",
+    "industry": "家电零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家电零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "人脸识别",
+      "语音技术",
+      "家用电器"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301152",
+    "name": "天力锂能",
+    "market": "创业板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "钠离子电池",
+      "动力电池回收",
+      "固态电池"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301180",
+    "name": "万祥科技",
+    "market": "创业板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "储能",
+      "华为概念",
+      "比亚迪概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301196",
+    "name": "唯科科技",
+    "market": "创业板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "光纤概念",
+      "消费电子概念",
+      "新型烟草(电子烟)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301225",
+    "name": "恒勃股份",
+    "market": "创业板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "汽车热管理",
+      "PEEK材料",
+      "华为汽车"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301228",
+    "name": "实朴检测",
+    "market": "创业板",
+    "industry": "专业服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "食品安全",
+      "土壤修复",
+      "融资融券"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301258",
+    "name": "富士莱",
+    "market": "创业板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "医疗器械概念",
+      "维生素",
+      "合成生物"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301261",
+    "name": "恒工精密",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "减速器",
+      "工业母机",
+      "人形机器人"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301326",
+    "name": "捷邦科技",
+    "market": "创业板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "苹果概念",
+      "富士康概念",
+      "消费电子概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301335",
+    "name": "天元宠物",
+    "market": "创业板",
+    "industry": "文娱用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "文娱用品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "宠物经济",
+      "跨境电商",
+      "一带一路"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301355",
+    "name": "南王科技",
+    "market": "创业板",
+    "industry": "包装印刷",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "包装印刷",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "食品安全",
+      "一带一路",
+      "海峡两岸"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301368",
+    "name": "丰立智能",
+    "market": "创业板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "减速器",
+      "人形机器人",
+      "飞行汽车(eVTOL)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301373",
+    "name": "凌玮科技",
+    "market": "创业板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "光伏概念",
+      "专精特新",
+      "融资融券"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301382",
+    "name": "蜂助手",
+    "market": "创业板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "云计算",
+      "云办公",
+      "云游戏"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301387",
+    "name": "光大同创",
+    "market": "创业板",
+    "industry": "待分类",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryLookupStatus": "source_missing"
+  },
+  {
+    "code": "301389",
+    "name": "隆扬电子",
+    "market": "创业板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB材料",
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "PET铜箔",
+      "富士康概念",
+      "苹果概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301428",
+    "name": "世纪恒通",
+    "market": "创业板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "云计算",
+      "数据安全",
+      "网络安全"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301458",
+    "name": "钧崴电子",
+    "market": "创业板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "富士康概念",
+      "消费电子概念",
+      "英伟达概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301459",
+    "name": "丰茂股份",
+    "market": "创业板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "长安汽车概念",
+      "汽车热管理",
+      "人形机器人"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301557",
+    "name": "常友科技",
+    "market": "创业板",
+    "industry": "风电设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "风电设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "风电",
+      "专精特新",
+      "海工装备"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301560",
+    "name": "众捷汽车",
+    "market": "创业板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "空气能热泵",
+      "专精特新",
+      "液冷服务器"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301565",
+    "name": "中仑新材",
+    "market": "创业板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "宁德时代概念",
+      "固态电池",
+      "锂电池概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301595",
+    "name": "太力科技",
+    "market": "创业板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "智能家居",
+      "露营经济",
+      "专精特新"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "301658",
+    "name": "首航新能",
+    "market": "创业板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "储能",
+      "充电桩",
+      "光伏概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600020",
+    "name": "中原高速",
+    "market": "沪市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "参股保险",
+      "信托概念",
+      "参股银行"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600032",
+    "name": "浙江新能",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "抽水蓄能",
+      "绿色电力",
+      "风电"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600033",
+    "name": "福建高速",
+    "market": "沪市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "参股保险",
+      "参股银行",
+      "国企改革"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600037",
+    "name": "歌华有线",
+    "market": "沪市主板",
+    "industry": "电视广播",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电视广播",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "文化传媒概念",
+      "国资云",
+      "DeepSeek概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600064",
+    "name": "南京高科",
+    "market": "沪市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "证金持股",
+      "高股息精选",
+      "参股券商"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600073",
+    "name": "光明肉业",
+    "market": "沪市主板",
+    "industry": "食品加工",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "食品加工",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "预制菜",
+      "猪肉",
+      "上海国企改革"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600113",
+    "name": "浙江东日",
+    "market": "沪市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "预制菜",
+      "统一大市场",
+      "参股银行"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600115",
+    "name": "中国东航",
+    "market": "沪市主板",
+    "industry": "航空机场",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空机场",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "跨境电商",
+      "大飞机",
+      "国企改革"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600118",
+    "name": "中国卫星",
+    "market": "沪市主板",
+    "industry": "航天装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "卫星",
+    "industryGroup": "航天装备",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "国产航母",
+      "卫星导航",
+      "大飞机"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600125",
+    "name": "铁龙物流",
+    "market": "沪市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "航运概念",
+      "统一大市场",
+      "冷链物流"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600126",
+    "name": "杭钢股份",
+    "market": "沪市主板",
+    "industry": "普钢",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "普钢",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "算力租赁",
+      "国资云",
+      "东数西算(算力)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600176",
+    "name": "中国巨石",
+    "market": "沪市主板",
+    "industry": "玻璃玻纤",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "玻璃玻纤",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "PCB概念",
+      "2026一季报预增",
+      "光伏概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600183",
+    "name": "生益科技",
+    "market": "沪市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "覆铜板/PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "PCB概念",
+      "共封装光学(CPO)",
+      "先进封装"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600199",
+    "name": "金种子酒",
+    "market": "沪市主板",
+    "industry": "白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "白酒",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "白酒概念",
+      "啤酒概念",
+      "国企改革"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600211",
+    "name": "西藏药业",
+    "market": "沪市主板",
+    "industry": "生物制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "生物制品",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "创新药",
+      "生物疫苗",
+      "流感"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600217",
+    "name": "中再资环",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "供销社",
+      "固废处理",
+      "西部大开发"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600223",
+    "name": "福瑞达",
+    "market": "沪市主板",
+    "industry": "化妆品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化妆品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "三胎概念",
+      "宠物经济",
+      "旅游概念"
+    ]
+  },
+  {
+    "code": "600229",
+    "name": "城市传媒",
+    "market": "沪市主板",
+    "industry": "出版",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "出版",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "IP经济(谷子经济)",
+      "文化传媒概念",
+      "短剧游戏"
+    ]
+  },
+  {
+    "code": "600231",
+    "name": "凌钢股份",
+    "market": "沪市主板",
+    "industry": "普钢",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "普钢",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "特钢概念",
+      "国企改革",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "600234",
+    "name": "科新发展",
+    "market": "沪市主板",
+    "industry": "装修装饰",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "装修装饰",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "物业管理",
+      "抖音概念(字节概念)",
+      "文化传媒概念"
+    ]
+  },
+  {
+    "code": "600251",
+    "name": "冠农股份",
+    "market": "沪市主板",
+    "industry": "农产品加工",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "农产品加工",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "化肥",
+      "生态农业",
+      "盐湖提锂"
+    ]
+  },
+  {
+    "code": "600252",
+    "name": "中恒集团",
+    "market": "沪市主板",
+    "industry": "中药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "中药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "仿制药一致性评价",
+      "肝炎概念"
+    ]
+  },
+  {
+    "code": "600262",
+    "name": "北方股份",
+    "market": "沪市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人民币贬值受益",
+      "华为概念",
+      "车联网(车路协同)"
+    ]
+  },
+  {
+    "code": "600266",
+    "name": "城建发展",
+    "market": "沪市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "参股券商",
+      "新型城镇化",
+      "旅游概念"
+    ]
+  },
+  {
+    "code": "600267",
+    "name": "海正药业",
+    "market": "沪市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "仿制药一致性评价",
+      "创新药",
+      "医药电商"
+    ]
+  },
+  {
+    "code": "600281",
+    "name": "华阳新材",
+    "market": "沪市主板",
+    "industry": "小金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "小金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属回收",
+      "可降解塑料",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "600283",
+    "name": "钱江水利",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "地下管网",
+      "PPP概念",
+      "新疆振兴"
+    ]
+  },
+  {
+    "code": "600338",
+    "name": "西藏珠峰",
+    "market": "沪市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "盐湖提锂",
+      "金属锌",
+      "金属铅"
+    ]
+  },
+  {
+    "code": "600372",
+    "name": "中航机载",
+    "market": "沪市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国产航母",
+      "军民融合",
+      "大飞机"
+    ]
+  },
+  {
+    "code": "600373",
+    "name": "中文传媒",
+    "market": "沪市主板",
+    "industry": "出版",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "出版",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "IP经济(谷子经济)",
+      "网络游戏",
+      "手机游戏"
+    ]
+  },
+  {
+    "code": "600376",
+    "name": "首开股份",
+    "market": "沪市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "证金持股",
+      "租售同权",
+      "冰雪产业"
+    ]
+  },
+  {
+    "code": "600390",
+    "name": "五矿资本",
+    "market": "沪市主板",
+    "industry": "多元金融",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "多元金融",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "信托概念",
+      "期货概念",
+      "参股保险"
+    ]
+  },
+  {
+    "code": "600398",
+    "name": "海澜之家",
+    "market": "沪市主板",
+    "industry": "服装家纺",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "服装家纺",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "三胎概念",
+      "体育产业"
+    ]
+  },
+  {
+    "code": "600403",
+    "name": "大有能源",
+    "market": "沪市主板",
+    "industry": "煤炭开采",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "煤炭开采",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "煤炭概念",
+      "国企改革",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "600409",
+    "name": "三友化工",
+    "market": "沪市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "消毒剂",
+      "有机硅概念",
+      "钠离子电池"
+    ]
+  },
+  {
+    "code": "600420",
+    "name": "国药现代",
+    "market": "沪市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "芬太尼",
+      "医药电商",
+      "仿制药一致性评价"
+    ]
+  },
+  {
+    "code": "600438",
+    "name": "通威股份",
+    "market": "沪市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "硅能源",
+      "TOPCON电池",
+      "HJT电池"
+    ]
+  },
+  {
+    "code": "600439",
+    "name": "瑞贝卡",
+    "market": "沪市主板",
+    "industry": "饰品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "饰品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "网红经济",
+      "跨境电商",
+      "参股银行"
+    ]
+  },
+  {
+    "code": "600456",
+    "name": "宝钛股份",
+    "market": "沪市主板",
+    "industry": "小金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "小金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "小金属概念",
+      "航空发动机",
+      "商业航天"
+    ]
+  },
+  {
+    "code": "600461",
+    "name": "洪城环境",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "天然气",
+      "PPP概念"
+    ]
+  },
+  {
+    "code": "600467",
+    "name": "好当家",
+    "market": "沪市主板",
+    "industry": "渔业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "渔业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "乡村振兴",
+      "中韩自贸区"
+    ]
+  },
+  {
+    "code": "600483",
+    "name": "福能股份",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "抽水蓄能",
+      "绿色电力",
+      "风电"
+    ]
+  },
+  {
+    "code": "600521",
+    "name": "华海药业",
+    "market": "沪市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "创新药",
+      "仿制药一致性评价",
+      "细胞免疫治疗"
+    ]
+  },
+  {
+    "code": "600528",
+    "name": "中铁工业",
+    "market": "沪市主板",
+    "industry": "轨交设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "轨交设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "地下管网",
+      "国企改革",
+      "高铁"
+    ]
+  },
+  {
+    "code": "600530",
+    "name": "交大昂立",
+    "market": "沪市主板",
+    "industry": "食品加工",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "食品加工",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "幽门螺杆菌概念",
+      "宠物经济",
+      "养老概念"
+    ]
+  },
+  {
+    "code": "600531",
+    "name": "豫光金铅",
+    "market": "沪市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属锌",
+      "金属铅",
+      "黄金概念"
+    ]
+  },
+  {
+    "code": "600539",
+    "name": "狮头股份",
+    "market": "沪市主板",
+    "industry": "互联网电商",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "互联网电商",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "小红书概念",
+      "AI应用",
+      "净水概念"
+    ]
+  },
+  {
+    "code": "600546",
+    "name": "山煤国际",
+    "market": "沪市主板",
+    "industry": "煤炭开采",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "煤炭开采",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "煤炭概念",
+      "超超临界发电",
+      "高股息精选"
+    ]
+  },
+  {
+    "code": "600557",
+    "name": "康缘药业",
+    "market": "沪市主板",
+    "industry": "中药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "中药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "创新药",
+      "禽流感"
+    ]
+  },
+  {
+    "code": "600563",
+    "name": "法拉电子",
+    "market": "沪市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超级电容",
+      "高压快充",
+      "数据中心(AIDC)"
+    ]
+  },
+  {
+    "code": "600570",
+    "name": "恒生电子",
+    "market": "沪市主板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "互联网金融",
+      "数字货币",
+      "跨境支付(CIPS)"
+    ]
+  },
+  {
+    "code": "600576",
+    "name": "祥源文旅",
+    "market": "沪市主板",
+    "industry": "旅游及景区",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "旅游及景区",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "旅游概念",
+      "冰雪产业",
+      "IP经济(谷子经济)"
+    ]
+  },
+  {
+    "code": "600584",
+    "name": "长电科技",
+    "market": "沪市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "先进封装",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国家大基金持股",
+      "先进封装",
+      "存储芯片"
+    ]
+  },
+  {
+    "code": "600600",
+    "name": "青岛啤酒",
+    "market": "沪市主板",
+    "industry": "非白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "非白酒",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超级品牌",
+      "啤酒概念",
+      "证金持股"
+    ]
+  },
+  {
+    "code": "600610",
+    "name": "中毅达",
+    "market": "沪市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "西部大开发",
+      "国企改革",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "600616",
+    "name": "金枫酒业",
+    "market": "沪市主板",
+    "industry": "非白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "非白酒",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "网红经济",
+      "上海国企改革",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "600617",
+    "name": "国新能源",
+    "market": "沪市主板",
+    "industry": "燃气",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "燃气",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "天然气",
+      "绿色电力",
+      "地下管网"
+    ]
+  },
+  {
+    "code": "600623",
+    "name": "华谊集团",
+    "market": "沪市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "煤化工概念",
+      "丙烯酸",
+      "PVDF概念"
+    ]
+  },
+  {
+    "code": "600629",
+    "name": "华建集团",
+    "market": "沪市主板",
+    "industry": "工程咨询服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程咨询服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "上海国企改革",
+      "房屋检测",
+      "装配式建筑"
+    ]
+  },
+  {
+    "code": "600673",
+    "name": "东阳光",
+    "market": "沪市主板",
+    "industry": "综合",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "综合",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "算力租赁",
+      "东数西算(算力)",
+      "数据中心(AIDC)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "600692",
+    "name": "亚通股份",
+    "market": "沪市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "乡村振兴",
+      "土地流转",
+      "文化传媒概念"
+    ]
+  },
+  {
+    "code": "600693",
+    "name": "东百集团",
+    "market": "沪市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "免税店",
+      "IP经济(谷子经济)",
+      "物业管理"
+    ]
+  },
+  {
+    "code": "600716",
+    "name": "凤凰股份",
+    "market": "沪市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "养老概念",
+      "国企改革",
+      "参股券商"
+    ]
+  },
+  {
+    "code": "600728",
+    "name": "佳都科技",
+    "market": "沪市主板",
+    "industry": "IT服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "IT服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "ChatGPT概念",
+      "虚拟数字人",
+      "AI语料"
+    ]
+  },
+  {
+    "code": "600754",
+    "name": "锦江酒店",
+    "market": "沪市主板",
+    "industry": "酒店餐饮",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "酒店餐饮",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "旅游概念",
+      "上海国企改革",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "600760",
+    "name": "中航沈飞",
+    "market": "沪市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "军工",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "军民融合",
+      "同花顺中特估100",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "600765",
+    "name": "中航重机",
+    "market": "沪市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国产航母",
+      "军民融合",
+      "大飞机"
+    ]
+  },
+  {
+    "code": "600774",
+    "name": "汉商集团",
+    "market": "沪市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "民营医院",
+      "三胎概念",
+      "辅助生殖"
+    ]
+  },
+  {
+    "code": "600780",
+    "name": "通宝能源",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "绿色电力",
+      "风电",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "600784",
+    "name": "鲁银投资",
+    "market": "沪市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "回购增持再贷款概念",
+      "化债概念(AMC概念)",
+      "创投"
+    ]
+  },
+  {
+    "code": "600796",
+    "name": "钱江生化",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "生态农业",
+      "乡村振兴",
+      "医疗废物处理"
+    ]
+  },
+  {
+    "code": "600801",
+    "name": "华新建材",
+    "market": "沪市主板",
+    "industry": "水泥",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "水泥",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "水泥概念",
+      "雅下水电概念",
+      "一带一路"
+    ]
+  },
+  {
+    "code": "600803",
+    "name": "新奥股份",
+    "market": "沪市主板",
+    "industry": "燃气",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "燃气",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "俄乌冲突概念",
+      "天然气",
+      "煤化工概念"
+    ]
+  },
+  {
+    "code": "600815",
+    "name": "厦工股份",
+    "market": "沪市主板",
+    "industry": "工程机械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程机械",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "福建自贸区",
+      "职业教育",
+      "海峡两岸"
+    ]
+  },
+  {
+    "code": "600817",
+    "name": "宇通重工",
+    "market": "沪市主板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "垃圾分类",
+      "高股息精选",
+      "氢能源"
+    ]
+  },
+  {
+    "code": "600845",
+    "name": "宝信软件",
+    "market": "沪市主板",
+    "industry": "IT服务",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "工业软件/数据中心",
+    "industryGroup": "IT服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "算力租赁",
+      "云计算",
+      "东数西算(算力)"
+    ]
+  },
+  {
+    "code": "600862",
+    "name": "中航高科",
+    "market": "沪市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "大飞机",
+      "航空发动机",
+      "军工"
+    ]
+  },
+  {
+    "code": "600881",
+    "name": "亚泰集团",
+    "market": "沪市主板",
+    "industry": "综合",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "综合",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "物业管理",
+      "体育产业",
+      "水泥概念"
+    ]
+  },
+  {
+    "code": "600893",
+    "name": "航发动力",
+    "market": "沪市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "军工",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国产航母",
+      "航空发动机",
+      "大飞机"
+    ]
+  },
+  {
+    "code": "600908",
+    "name": "无锡银行",
+    "market": "沪市主板",
+    "industry": "农商行",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "农商行",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "参股银行",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "600930",
+    "name": "华电新能",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "绿色电力",
+      "风电",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "600933",
+    "name": "爱柯迪",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人形机器人",
+      "汽车热管理",
+      "一体化压铸"
+    ]
+  },
+  {
+    "code": "600939",
+    "name": "重庆建工",
+    "market": "沪市主板",
+    "industry": "房屋建设",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房屋建设",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "房屋检测",
+      "装配式建筑",
+      "新型城镇化"
+    ]
+  },
+  {
+    "code": "600956",
+    "name": "新天绿能",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "天然气",
+      "碳交易",
+      "绿色电力"
+    ]
+  },
+  {
+    "code": "600969",
+    "name": "郴电国际",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "绿色电力",
+      "风电",
+      "充电桩"
+    ]
+  },
+  {
+    "code": "600982",
+    "name": "宁波能源",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "抽水蓄能",
+      "生物质能发电",
+      "绿色电力"
+    ]
+  },
+  {
+    "code": "600984",
+    "name": "建设机械",
+    "market": "沪市主板",
+    "industry": "工程机械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程机械",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "一带一路",
+      "西部大开发",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "600989",
+    "name": "宝丰能源",
+    "market": "沪市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "煤化工概念",
+      "煤炭概念",
+      "POE胶膜"
+    ]
+  },
+  {
+    "code": "600998",
+    "name": "九州通",
+    "market": "沪市主板",
+    "industry": "医药商业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医药商业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "医药电商",
+      "仿制药一致性评价"
+    ]
+  },
+  {
+    "code": "601006",
+    "name": "大秦铁路",
+    "market": "沪市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "同花顺中特估100",
+      "证金持股"
+    ]
+  },
+  {
+    "code": "601008",
+    "name": "连云港",
+    "market": "沪市主板",
+    "industry": "航运港口",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航运港口",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "航运概念",
+      "中韩自贸区",
+      "中俄贸易概念"
+    ]
+  },
+  {
+    "code": "601012",
+    "name": "隆基绿能",
+    "market": "沪市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "光伏",
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "硅能源",
+      "HJT电池",
+      "TOPCON电池"
+    ]
+  },
+  {
+    "code": "601020",
+    "name": "华钰矿业",
+    "market": "沪市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属铅",
+      "金属锌",
+      "金属铜"
+    ]
+  },
+  {
+    "code": "601026",
+    "name": "道生天合",
+    "market": "沪市主板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "丙烯酸",
+      "风电",
+      "碳纤维"
+    ]
+  },
+  {
+    "code": "601033",
+    "name": "永兴股份",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "生物质能发电",
+      "绿色电力",
+      "医疗废物处理"
+    ]
+  },
+  {
+    "code": "601038",
+    "name": "一拖股份",
+    "market": "沪市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "乡村振兴",
+      "国企改革",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "601068",
+    "name": "中铝国际",
+    "market": "沪市主板",
+    "industry": "专业工程",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业工程",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "盐湖提锂",
+      "稀土永磁",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "601069",
+    "name": "西部黄金",
+    "market": "沪市主板",
+    "industry": "贵金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "贵金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "黄金概念",
+      "金属铜",
+      "小金属概念"
+    ]
+  },
+  {
+    "code": "601099",
+    "name": "太平洋",
+    "market": "沪市主板",
+    "industry": "证券",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "证券",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "互联网金融",
+      "西部大开发",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "601137",
+    "name": "XD博威合",
+    "market": "沪市主板",
+    "industry": "金属新材料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "金属新材料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "富士康概念",
+      "先进封装",
+      "铜缆高速连接"
+    ]
+  },
+  {
+    "code": "601138",
+    "name": "工业富联",
+    "market": "沪市主板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "算力服务器",
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "同花顺果指数",
+      "共封装光学(CPO)",
+      "富士康概念"
+    ]
+  },
+  {
+    "code": "601169",
+    "name": "北京银行",
+    "market": "沪市主板",
+    "industry": "城商行",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "城商行",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "参股保险",
+      "北京自贸区"
+    ]
+  },
+  {
+    "code": "601212",
+    "name": "白银有色",
+    "market": "沪市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属铅",
+      "金属锌",
+      "黄金概念"
+    ]
+  },
+  {
+    "code": "601222",
+    "name": "林洋能源",
+    "market": "沪市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "虚拟电厂",
+      "绿色电力",
+      "电力物联网"
+    ]
+  },
+  {
+    "code": "601333",
+    "name": "广深铁路",
+    "market": "沪市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国企改革",
+      "高铁",
+      "粤港澳大湾区"
+    ]
+  },
+  {
+    "code": "601336",
+    "name": "新华保险",
+    "market": "沪市主板",
+    "industry": "保险",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "保险",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "互联网保险",
+      "证金持股",
+      "蚂蚁集团概念"
+    ]
+  },
+  {
+    "code": "601366",
+    "name": "利群股份",
+    "market": "沪市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "统一大市场",
+      "冷链物流"
+    ]
+  },
+  {
+    "code": "601456",
+    "name": "国联民生",
+    "market": "沪市主板",
+    "industry": "证券",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "证券",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国企改革",
+      "互联网金融",
+      "2025年报预增"
+    ]
+  },
+  {
+    "code": "601515",
+    "name": "衢州东峰",
+    "market": "沪市主板",
+    "industry": "包装印刷",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "包装印刷",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "烟草",
+      "PVDF概念",
+      "新型烟草(电子烟)"
+    ]
+  },
+  {
+    "code": "601677",
+    "name": "明泰铝业",
+    "market": "沪市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属回收",
+      "固态电池",
+      "锂电池概念"
+    ]
+  },
+  {
+    "code": "601688",
+    "name": "华泰证券",
+    "market": "沪市主板",
+    "industry": "证券",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "证券",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "期货概念",
+      "证金持股",
+      "互联网金融"
+    ]
+  },
+  {
+    "code": "601766",
+    "name": "中国中车",
+    "market": "沪市主板",
+    "industry": "轨交设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "轨交设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "证金持股",
+      "同花顺中特估100",
+      "参股保险"
+    ]
+  },
+  {
+    "code": "601788",
+    "name": "光大证券",
+    "market": "沪市主板",
+    "industry": "证券",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "证券",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "期货概念",
+      "证金持股",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "601816",
+    "name": "京沪高铁",
+    "market": "沪市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "同花顺中特估100",
+      "国企改革",
+      "高铁"
+    ]
+  },
+  {
+    "code": "601827",
+    "name": "三峰环境",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "生物质能发电",
+      "绿色电力",
+      "医疗废物处理"
+    ]
+  },
+  {
+    "code": "601908",
+    "name": "京运通",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "绿色电力",
+      "硅能源",
+      "京津冀一体化"
+    ]
+  },
+  {
+    "code": "601933",
+    "name": "永辉超市",
+    "market": "沪市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "IP经济(谷子经济)",
+      "统一大市场"
+    ]
+  },
+  {
+    "code": "601939",
+    "name": "建设银行",
+    "market": "沪市主板",
+    "industry": "国有大型银行",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "国有大型银行",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "同花顺中特估100",
+      "证金持股"
+    ]
+  },
+  {
+    "code": "601949",
+    "name": "中国出版",
+    "market": "沪市主板",
+    "industry": "出版",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "出版",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "NFT概念",
+      "文化传媒概念",
+      "知识产权保护"
+    ]
+  },
+  {
+    "code": "603013",
+    "name": "亚普股份",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "长安汽车概念",
+      "汽车热管理",
+      "中俄贸易概念"
+    ]
+  },
+  {
+    "code": "603019",
+    "name": "中科曙光",
+    "market": "沪市主板",
+    "industry": "计算机设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "算力服务器",
+    "industryGroup": "计算机设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "中国AI 50",
+      "东数西算(算力)",
+      "芯片概念"
+    ]
+  },
+  {
+    "code": "603041",
+    "name": "美思德",
+    "market": "沪市主板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "建筑节能",
+      "有机硅概念",
+      "专精特新"
+    ]
+  },
+  {
+    "code": "603049",
+    "name": "中策橡胶",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "两轮车",
+      "新能源汽车",
+      "比亚迪概念"
+    ]
+  },
+  {
+    "code": "603051",
+    "name": "鹿山新材",
+    "market": "沪市主板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "TOPCON电池",
+      "HJT电池",
+      "钙钛矿电池"
+    ]
+  },
+  {
+    "code": "603055",
+    "name": "台华新材",
+    "market": "沪市主板",
+    "industry": "纺织制造",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "纺织制造",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "一带一路",
+      "长三角一体化",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "603060",
+    "name": "国检集团",
+    "market": "沪市主板",
+    "industry": "专业服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "房屋检测",
+      "碳交易",
+      "土壤修复"
+    ]
+  },
+  {
+    "code": "603066",
+    "name": "音飞储存",
+    "market": "沪市主板",
+    "industry": "物流",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "物流",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "跨境电商",
+      "烟草",
+      "智能物流"
+    ]
+  },
+  {
+    "code": "603073",
+    "name": "彩蝶实业",
+    "market": "沪市主板",
+    "industry": "纺织制造",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "纺织制造",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "中俄贸易概念",
+      "共同富裕示范区",
+      "一带一路"
+    ]
+  },
+  {
+    "code": "603091",
+    "name": "众鑫股份",
+    "market": "沪市主板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人民币贬值受益",
+      "可降解塑料",
+      "跨境电商"
+    ]
+  },
+  {
+    "code": "603093",
+    "name": "南华期货",
+    "market": "沪市主板",
+    "industry": "多元金融",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "多元金融",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "期货概念",
+      "参股券商",
+      "数字经济"
+    ]
+  },
+  {
+    "code": "603116",
+    "name": "红蜻蜓",
+    "market": "沪市主板",
+    "industry": "服装家纺",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "服装家纺",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "C2M概念",
+      "跨境电商",
+      "AIGC概念"
+    ]
+  },
+  {
+    "code": "603131",
+    "name": "上海沪工",
+    "market": "沪市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "卫星导航",
+      "商业航天",
+      "军工"
+    ]
+  },
+  {
+    "code": "603135",
+    "name": "中重科技",
+    "market": "沪市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高端装备",
+      "新型工业化",
+      "机器人概念"
+    ]
+  },
+  {
+    "code": "603162",
+    "name": "海通发展",
+    "market": "沪市主板",
+    "industry": "航运港口",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航运港口",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "航运概念",
+      "福建自贸区",
+      "统一大市场"
+    ]
+  },
+  {
+    "code": "603185",
+    "name": "弘元绿能",
+    "market": "沪市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "硅能源",
+      "TOPCON电池",
+      "光伏概念"
+    ]
+  },
+  {
+    "code": "603187",
+    "name": "海容冷链",
+    "market": "沪市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "冷链物流",
+      "无人零售",
+      "高股息精选"
+    ]
+  },
+  {
+    "code": "603198",
+    "name": "迎驾贡酒",
+    "market": "沪市主板",
+    "industry": "白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "白酒",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "白酒概念",
+      "沪股通",
+      "融资融券"
+    ]
+  },
+  {
+    "code": "603212",
+    "name": "赛伍技术",
+    "market": "沪市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "BC电池",
+      "HJT电池",
+      "TOPCON电池"
+    ]
+  },
+  {
+    "code": "603223",
+    "name": "恒通股份",
+    "market": "沪市主板",
+    "industry": "炼化及贸易",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "炼化及贸易",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "天然气",
+      "航运概念",
+      "2025年报预增"
+    ]
+  },
+  {
+    "code": "603228",
+    "name": "景旺电子",
+    "market": "沪市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PCB概念",
+      "共封装光学(CPO)",
+      "华为手机"
+    ]
+  },
+  {
+    "code": "603271",
+    "name": "永杰新材",
+    "market": "沪市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "锂电池概念",
+      "华为概念",
+      "比亚迪概念"
+    ]
+  },
+  {
+    "code": "603276",
+    "name": "恒兴新材",
+    "market": "沪市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "合成生物",
+      "生态农业",
+      "锂电池概念"
+    ]
+  },
+  {
+    "code": "603280",
+    "name": "南方路机",
+    "market": "沪市主板",
+    "industry": "工程机械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程机械",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "新型城镇化",
+      "跨境电商",
+      "中俄贸易概念"
+    ]
+  },
+  {
+    "code": "603289",
+    "name": "泰瑞机器",
+    "market": "沪市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "新型工业化",
+      "比亚迪概念",
+      "垃圾分类"
+    ]
+  },
+  {
+    "code": "603298",
+    "name": "杭叉集团",
+    "market": "沪市主板",
+    "industry": "工程机械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程机械",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "同花顺出海50",
+      "智能物流",
+      "人形机器人"
+    ]
+  },
+  {
+    "code": "603320",
+    "name": "迪贝电气",
+    "market": "沪市主板",
+    "industry": "电机",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电机",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "空气能热泵",
+      "家用电器"
+    ]
+  },
+  {
+    "code": "603323",
+    "name": "苏农银行",
+    "market": "沪市主板",
+    "industry": "农商行",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "农商行",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "长三角一体化",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "603324",
+    "name": "盛剑科技",
+    "market": "沪市主板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "中芯国际概念",
+      "光刻胶",
+      "专精特新"
+    ]
+  },
+  {
+    "code": "603380",
+    "name": "易德龙",
+    "market": "沪市主板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "机器人概念",
+      "新能源汽车",
+      "汽车电子"
+    ]
+  },
+  {
+    "code": "603385",
+    "name": "惠达卫浴",
+    "market": "沪市主板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "装配式建筑",
+      "雄安新区",
+      "智能家居"
+    ]
+  },
+  {
+    "code": "603416",
+    "name": "信捷电气",
+    "market": "沪市主板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人形机器人",
+      "新型工业化",
+      "机器视觉"
+    ]
+  },
+  {
+    "code": "603418",
+    "name": "友升股份",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "注册制次新股",
+      "一体化压铸",
+      "华为汽车"
+    ]
+  },
+  {
+    "code": "603520",
+    "name": "司太立",
+    "market": "沪市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "氟化工概念",
+      "仿制药一致性评价",
+      "流感"
+    ]
+  },
+  {
+    "code": "603536",
+    "name": "惠发食品",
+    "market": "沪市主板",
+    "industry": "食品加工",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "食品加工",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "网红经济",
+      "乡村振兴"
+    ]
+  },
+  {
+    "code": "603556",
+    "name": "海兴电力",
+    "market": "沪市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "电力物联网",
+      "智能电网",
+      "充电桩"
+    ]
+  },
+  {
+    "code": "603588",
+    "name": "高能环境",
+    "market": "沪市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属铅",
+      "黄金概念",
+      "金属铜"
+    ]
+  },
+  {
+    "code": "603596",
+    "name": "伯特利",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "华为汽车",
+      "人形机器人",
+      "长安汽车概念"
+    ]
+  },
+  {
+    "code": "603610",
+    "name": "麒盛科技",
+    "market": "沪市主板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "智能家居",
+      "人民币贬值受益",
+      "脑机接口"
+    ]
+  },
+  {
+    "code": "603612",
+    "name": "索通发展",
+    "market": "沪市主板",
+    "industry": "非金属材料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "非金属材料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "石墨电极",
+      "固态电池",
+      "宁德时代概念"
+    ]
+  },
+  {
+    "code": "603618",
+    "name": "杭电股份",
+    "market": "沪市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "光纤概念",
+      "特高压",
+      "抽水蓄能"
+    ]
+  },
+  {
+    "code": "603655",
+    "name": "朗博科技",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "新能源汽车",
+      "2025年报预增"
+    ]
+  },
+  {
+    "code": "603657",
+    "name": "春光科技",
+    "market": "沪市主板",
+    "industry": "家电零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家电零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "家用电器",
+      "机器人概念",
+      "专精特新"
+    ]
+  },
+  {
+    "code": "603678",
+    "name": "火炬电子",
+    "market": "沪市主板",
+    "industry": "军工电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "军工电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超级电容",
+      "第三代半导体",
+      "5G"
+    ]
+  },
+  {
+    "code": "603693",
+    "name": "江苏新能",
+    "market": "沪市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "生物质能发电",
+      "绿色电力",
+      "风电"
+    ]
+  },
+  {
+    "code": "603699",
+    "name": "纽威股份",
+    "market": "沪市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "页岩气",
+      "氢能源",
+      "高股息精选"
+    ]
+  },
+  {
+    "code": "603711",
+    "name": "香飘飘",
+    "market": "沪市主板",
+    "industry": "饮料乳品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "饮料乳品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "共同富裕示范区",
+      "互联网金融",
+      "创投"
+    ]
+  },
+  {
+    "code": "603726",
+    "name": "朗迪集团",
+    "market": "沪市主板",
+    "industry": "家电零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家电零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "先进封装",
+      "人形机器人",
+      "家用电器"
+    ]
+  },
+  {
+    "code": "603728",
+    "name": "鸣志电器",
+    "market": "沪市主板",
+    "industry": "电机",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "电机",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "人形机器人",
+      "同花顺新质50"
+    ]
+  },
+  {
+    "code": "603738",
+    "name": "泰晶科技",
+    "market": "沪市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "晶振/CPO",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "光刻机",
+      "共封装光学(CPO)",
+      "6G概念"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "603758",
+    "name": "秦安股份",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "长安汽车概念",
+      "人形机器人",
+      "新能源汽车"
+    ]
+  },
+  {
+    "code": "603799",
+    "name": "华友钴业",
+    "market": "沪市主板",
+    "industry": "能源金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "能源金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属钴",
+      "金属镍",
+      "盐湖提锂"
+    ]
+  },
+  {
+    "code": "603806",
+    "name": "福斯特",
+    "market": "沪市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "光伏材料",
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "BC电池",
+      "HJT电池",
+      "PCB概念"
+    ]
+  },
+  {
+    "code": "603809",
+    "name": "豪能股份",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "华为汽车",
+      "长安汽车概念"
+    ]
+  },
+  {
+    "code": "603810",
+    "name": "丰山集团",
+    "market": "沪市主板",
+    "industry": "农化制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "农化制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "合成生物",
+      "创投",
+      "钒电池"
+    ]
+  },
+  {
+    "code": "603829",
+    "name": "洛凯股份",
+    "market": "沪市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "储能",
+      "智能电网",
+      "光伏概念"
+    ]
+  },
+  {
+    "code": "603836",
+    "name": "海程邦达",
+    "market": "沪市主板",
+    "industry": "物流",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "物流",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "中韩自贸区",
+      "航运概念",
+      "统一大市场"
+    ]
+  },
+  {
+    "code": "603861",
+    "name": "白云电器",
+    "market": "沪市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "柔性直流输电",
+      "特高压",
+      "智能电网"
+    ]
+  },
+  {
+    "code": "603868",
+    "name": "飞科电器",
+    "market": "沪市主板",
+    "industry": "小家电",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "小家电",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "家用电器",
+      "短剧游戏",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "603871",
+    "name": "嘉友国际",
+    "market": "沪市主板",
+    "industry": "物流",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "物流",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "统一大市场",
+      "冷链物流",
+      "PPP概念"
+    ]
+  },
+  {
+    "code": "603890",
+    "name": "春秋电子",
+    "market": "沪市主板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "AI PC",
+      "富士康概念",
+      "F5G概念"
+    ]
+  },
+  {
+    "code": "603917",
+    "name": "合力科技",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "长三角一体化",
+      "宁德时代概念",
+      "新能源汽车"
+    ]
+  },
+  {
+    "code": "603926",
+    "name": "铁流股份",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "机器人概念",
+      "长安汽车概念",
+      "新能源汽车"
+    ]
+  },
+  {
+    "code": "603929",
+    "name": "亚翔集成",
+    "market": "沪市主板",
+    "industry": "专业工程",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业工程",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "中芯国际概念",
+      "富士康概念",
+      "OLED"
+    ]
+  },
+  {
+    "code": "603939",
+    "name": "益丰药房",
+    "market": "沪市主板",
+    "industry": "医药商业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医药商业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "家庭医生",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "603970",
+    "name": "中农立华",
+    "market": "沪市主板",
+    "industry": "农化制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "农化制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "农业种植",
+      "供销社",
+      "草甘膦"
+    ]
+  },
+  {
+    "code": "603986",
+    "name": "兆易创新",
+    "market": "沪市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体存储",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "存储芯片",
+      "汽车芯片",
+      "MCU芯片"
+    ]
+  },
+  {
+    "code": "603991",
+    "name": "领先股份",
+    "market": "沪市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "华为概念",
+      "核电",
+      "机器视觉"
+    ]
+  },
+  {
+    "code": "605001",
+    "name": "威奥股份",
+    "market": "沪市主板",
+    "industry": "轨交设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "轨交设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "养老概念",
+      "高铁",
+      "一带一路"
+    ]
+  },
+  {
+    "code": "605008",
+    "name": "长鸿高科",
+    "market": "沪市主板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "可降解塑料",
+      "沪股通"
+    ]
+  },
+  {
+    "code": "605116",
+    "name": "奥锐特",
+    "market": "沪市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减肥药",
+      "创新药",
+      "仿制药一致性评价"
+    ]
+  },
+  {
+    "code": "605151",
+    "name": "西上海",
+    "market": "沪市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "智能物流",
+      "创投",
+      "比亚迪概念"
+    ]
+  },
+  {
+    "code": "605186",
+    "name": "健麾信息",
+    "market": "沪市主板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "AI语料",
+      "医药电商",
+      "智能医疗"
+    ]
+  },
+  {
+    "code": "605189",
+    "name": "富春染织",
+    "market": "沪市主板",
+    "industry": "纺织制造",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "纺织制造",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "染料",
+      "PEEK材料",
+      "机器人概念"
+    ]
+  },
+  {
+    "code": "605258",
+    "name": "XD协和电",
+    "market": "沪市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "5G",
+      "毫米波雷达",
+      "汽车电子"
+    ]
+  },
+  {
+    "code": "605287",
+    "name": "德才股份",
+    "market": "沪市主板",
+    "industry": "装修装饰",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "装修装饰",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "AI视频",
+      "AIGC概念",
+      "虚拟现实"
+    ]
+  },
+  {
+    "code": "605299",
+    "name": "舒华体育",
+    "market": "沪市主板",
+    "industry": "文娱用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "文娱用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "足球概念",
+      "冰雪产业",
+      "体育产业"
+    ]
+  },
+  {
+    "code": "605337",
+    "name": "李子园",
+    "market": "沪市主板",
+    "industry": "饮料乳品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "饮料乳品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "乳业",
+      "啤酒概念",
+      "养老概念"
+    ]
+  },
+  {
+    "code": "605366",
+    "name": "宏柏新材",
+    "market": "沪市主板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "有机硅概念",
+      "硅能源",
+      "回购增持再贷款概念"
+    ]
+  },
+  {
+    "code": "605378",
+    "name": "野马电池",
+    "market": "沪市主板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "共同富裕示范区",
+      "锂电池概念",
+      "人民币贬值受益"
+    ]
+  },
+  {
+    "code": "605488",
+    "name": "福莱新材",
+    "market": "沪市主板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人形机器人",
+      "传感器",
+      "机器人概念"
+    ]
+  },
+  {
+    "code": "000007",
+    "name": "全新好",
+    "market": "深市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "粤港澳大湾区",
+      "物业管理"
+    ]
+  },
+  {
+    "code": "000021",
+    "name": "深科技",
+    "market": "深市主板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "存储/先进封装",
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "存储芯片",
+      "先进封装",
+      "共封装光学(CPO)"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "000025",
+    "name": "特 力Ａ",
+    "market": "深市主板",
+    "industry": "综合",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "综合",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "物业管理",
+      "深圳国企改革",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "000028",
+    "name": "国药一致",
+    "market": "深市主板",
+    "industry": "医药商业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医药商业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "医美概念",
+      "冷链物流"
+    ]
+  },
+  {
+    "code": "000034",
+    "name": "神州数码",
+    "market": "深市主板",
+    "industry": "IT服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "IT服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "算力租赁",
+      "华为昇腾",
+      "智谱AI"
+    ]
+  },
+  {
+    "code": "000050",
+    "name": "深天马Ａ",
+    "market": "深市主板",
+    "industry": "光学光电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光学光电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "电子纸",
+      "MicroLED概念",
+      "柔性屏(折叠屏)"
+    ]
+  },
+  {
+    "code": "000065",
+    "name": "北方国际",
+    "market": "深市主板",
+    "industry": "专业工程",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业工程",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超超临界发电",
+      "煤炭概念",
+      "同花顺中特估100"
+    ]
+  },
+  {
+    "code": "000070",
+    "name": "特发信息",
+    "market": "深市主板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "通信连接",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "光纤概念",
+      "F5G概念",
+      "共封装光学(CPO)"
+    ]
+  },
+  {
+    "code": "000088",
+    "name": "盐 田 港",
+    "market": "深市主板",
+    "industry": "航运港口",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航运港口",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "统一大市场",
+      "航运概念",
+      "冷链物流"
+    ]
+  },
+  {
+    "code": "000099",
+    "name": "中信海直",
+    "market": "深市主板",
+    "industry": "航空机场",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "低空经济",
+    "industryGroup": "航空机场",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "数字经济",
+      "旅游概念",
+      "低空经济"
+    ]
+  },
+  {
+    "code": "000155",
+    "name": "川能动力",
+    "market": "深市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "盐湖提锂",
+      "磷化工",
+      "小金属概念"
+    ]
+  },
+  {
+    "code": "000417",
+    "name": "合百集团",
+    "market": "深市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "AI应用",
+      "互联网金融",
+      "人工智能"
+    ]
+  },
+  {
+    "code": "000428",
+    "name": "华天酒店",
+    "market": "深市主板",
+    "industry": "酒店餐饮",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "酒店餐饮",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "物业管理",
+      "职业教育"
+    ]
+  },
+  {
+    "code": "000503",
+    "name": "国新健康",
+    "market": "深市主板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "家庭医生",
+      "DRG/DIP",
+      "养老概念"
+    ]
+  },
+  {
+    "code": "000506",
+    "name": "招金黄金",
+    "market": "深市主板",
+    "industry": "贵金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "贵金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "黄金概念",
+      "金属铜",
+      "小金属概念"
+    ]
+  },
+  {
+    "code": "000513",
+    "name": "丽珠集团",
+    "market": "深市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "仿制药一致性评价",
+      "生物疫苗",
+      "创新药"
+    ]
+  },
+  {
+    "code": "000529",
+    "name": "广弘控股",
+    "market": "深市主板",
+    "industry": "食品加工",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "食品加工",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "养鸡",
+      "猪肉"
+    ]
+  },
+  {
+    "code": "000541",
+    "name": "佛山照明",
+    "market": "深市主板",
+    "industry": "照明设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "照明设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "参股银行",
+      "跨境电商",
+      "养老概念"
+    ]
+  },
+  {
+    "code": "000548",
+    "name": "湖南投资",
+    "market": "深市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "乡村振兴",
+      "物业管理",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "000560",
+    "name": "我爱我家",
+    "market": "深市主板",
+    "industry": "房地产服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "租售同权",
+      "物业管理",
+      "京津冀一体化"
+    ]
+  },
+  {
+    "code": "000576",
+    "name": "甘化科工",
+    "market": "深市主板",
+    "industry": "地面兵装",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "地面兵装",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "军工信息化",
+      "军民融合",
+      "军工"
+    ]
+  },
+  {
+    "code": "000605",
+    "name": "渤海股份",
+    "market": "深市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "雄安新区",
+      "污水处理",
+      "PPP概念"
+    ]
+  },
+  {
+    "code": "000623",
+    "name": "吉林敖东",
+    "market": "深市主板",
+    "industry": "中药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "中药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "参股券商",
+      "维生素"
+    ]
+  },
+  {
+    "code": "000657",
+    "name": "中钨高新",
+    "market": "深市主板",
+    "industry": "小金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "小金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属钴",
+      "小金属概念",
+      "金属铜"
+    ]
+  },
+  {
+    "code": "000685",
+    "name": "中山公用",
+    "market": "深市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "参股券商",
+      "证金持股",
+      "航运概念"
+    ]
+  },
+  {
+    "code": "000707",
+    "name": "双环科技",
+    "market": "深市主板",
+    "industry": "化学原料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学原料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "化肥",
+      "煤化工概念",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "000718",
+    "name": "苏宁环球",
+    "market": "深市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "文化传媒概念",
+      "民营医院",
+      "医美概念"
+    ]
+  },
+  {
+    "code": "000738",
+    "name": "航发控制",
+    "market": "深市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国产航母",
+      "军民融合",
+      "大飞机"
+    ]
+  },
+  {
+    "code": "000756",
+    "name": "新华制药",
+    "market": "深市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "肝炎概念",
+      "流感",
+      "阿尔茨海默概念"
+    ]
+  },
+  {
+    "code": "000759",
+    "name": "中百集团",
+    "market": "深市主板",
+    "industry": "一般零售",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "一般零售",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "免税店",
+      "预制菜",
+      "IP经济(谷子经济)"
+    ]
+  },
+  {
+    "code": "000767",
+    "name": "晋控电力",
+    "market": "深市主板",
+    "industry": "电力",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电力",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超超临界发电",
+      "绿色电力",
+      "碳交易"
+    ]
+  },
+  {
+    "code": "000768",
+    "name": "中航西飞",
+    "market": "深市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "军工",
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国产航母",
+      "军民融合",
+      "大飞机"
+    ]
+  },
+  {
+    "code": "000777",
+    "name": "中核科技",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "可控核聚变",
+      "高端装备",
+      "核电"
+    ]
+  },
+  {
+    "code": "000783",
+    "name": "长江证券",
+    "market": "深市主板",
+    "industry": "证券",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "证券",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "期货概念",
+      "2025年报预增",
+      "融资融券"
+    ]
+  },
+  {
+    "code": "000799",
+    "name": "酒鬼酒",
+    "market": "深市主板",
+    "industry": "白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "白酒",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "白酒概念",
+      "国企改革",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "000816",
+    "name": "智慧农业",
+    "market": "深市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "农村电商",
+      "盐湖提锂",
+      "金属铜"
+    ]
+  },
+  {
+    "code": "000823",
+    "name": "超声电子",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PCB概念",
+      "共封装光学(CPO)",
+      "苹果概念"
+    ]
+  },
+  {
+    "code": "000825",
+    "name": "太钢不锈",
+    "market": "深市主板",
+    "industry": "特钢",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "特钢",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "特钢概念",
+      "央企国企改革",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "000890",
+    "name": "法尔胜",
+    "market": "深市主板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "净水概念",
+      "污水处理",
+      "独角兽概念"
+    ]
+  },
+  {
+    "code": "000900",
+    "name": "现代投资",
+    "market": "深市主板",
+    "industry": "铁路公路",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "铁路公路",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "证金持股",
+      "高股息精选",
+      "预制菜"
+    ]
+  },
+  {
+    "code": "000922",
+    "name": "佳电股份",
+    "market": "深市主板",
+    "industry": "电机",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电机",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "核电",
+      "风电",
+      "军工"
+    ]
+  },
+  {
+    "code": "000931",
+    "name": "中 关 村",
+    "market": "深市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "仿制药一致性评价",
+      "创新药",
+      "养老概念"
+    ]
+  },
+  {
+    "code": "000937",
+    "name": "冀中能源",
+    "market": "深市主板",
+    "industry": "煤炭开采",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "煤炭开采",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "煤炭概念",
+      "煤化工概念",
+      "国企改革"
+    ]
+  },
+  {
+    "code": "000938",
+    "name": "紫光股份",
+    "market": "深市主板",
+    "industry": "IT服务",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "算力/ICT",
+    "industryGroup": "IT服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "算力租赁",
+      "中国AI 50",
+      "WiFi 6"
+    ]
+  },
+  {
+    "code": "000952",
+    "name": "广济药业",
+    "market": "深市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "维生素",
+      "肝炎概念",
+      "合成生物"
+    ]
+  },
+  {
+    "code": "000955",
+    "name": "欣龙控股",
+    "market": "深市主板",
+    "industry": "纺织制造",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "纺织制造",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "三胎概念",
+      "海南自贸区",
+      "自由贸易港"
+    ]
+  },
+  {
+    "code": "000963",
+    "name": "华东医药",
+    "market": "深市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "创新药",
+      "医药电商",
+      "减肥药"
+    ]
+  },
+  {
+    "code": "000977",
+    "name": "浪潮信息",
+    "market": "深市主板",
+    "industry": "计算机设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "算力服务器",
+    "industryGroup": "计算机设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "中国AI 50",
+      "算力租赁",
+      "东数西算(算力)"
+    ]
+  },
+  {
+    "code": "000985",
+    "name": "大庆华科",
+    "market": "深市主板",
+    "industry": "炼化及贸易",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "炼化及贸易",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国企改革",
+      "黑龙江自贸区",
+      "央企国企改革"
+    ]
+  },
+  {
+    "code": "000988",
+    "name": "华工科技",
+    "market": "深市主板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "算力/ICT",
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "F5G概念",
+      "存储芯片"
+    ]
+  },
+  {
+    "code": "000998",
+    "name": "隆平高科",
+    "market": "深市主板",
+    "industry": "种植业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "种植业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "转基因",
+      "玉米",
+      "粮食概念"
+    ]
+  },
+  {
+    "code": "001206",
+    "name": "依依股份",
+    "market": "深市主板",
+    "industry": "个护用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "个护用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "宠物经济",
+      "养老概念",
+      "三胎概念"
+    ]
+  },
+  {
+    "code": "001208",
+    "name": "华菱线缆",
+    "market": "深市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "特高压",
+      "卫星导航",
+      "商业航天"
+    ]
+  },
+  {
+    "code": "001255",
+    "name": "博菲电气",
+    "market": "深市主板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "水利",
+      "共同富裕示范区",
+      "高铁"
+    ]
+  },
+  {
+    "code": "001280",
+    "name": "中国铀业",
+    "market": "深市主板",
+    "industry": "小金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "小金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "小金属概念",
+      "稀土永磁",
+      "超导概念"
+    ]
+  },
+  {
+    "code": "001287",
+    "name": "中电港",
+    "market": "深市主板",
+    "industry": "其他电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国家大基金持股",
+      "存储芯片",
+      "WiFi 6"
+    ]
+  },
+  {
+    "code": "001318",
+    "name": "阳光乳业",
+    "market": "深市主板",
+    "industry": "饮料乳品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "饮料乳品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "乳业",
+      "三胎概念",
+      "冷链物流"
+    ]
+  },
+  {
+    "code": "001335",
+    "name": "信凯科技",
+    "market": "深市主板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "染料",
+      "一带一路",
+      "人民币贬值受益"
+    ]
+  },
+  {
+    "code": "001336",
+    "name": "楚环科技",
+    "market": "深市主板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "新型城镇化",
+      "污水处理",
+      "垃圾分类"
+    ]
+  },
+  {
+    "code": "001356",
+    "name": "富岭股份",
+    "market": "深市主板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "跨境电商",
+      "可降解塑料",
+      "人民币贬值受益"
+    ]
+  },
+  {
+    "code": "001378",
+    "name": "德冠新材",
+    "market": "深市主板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "回购增持再贷款概念",
+      "粤港澳大湾区",
+      "参股银行"
+    ]
+  },
+  {
+    "code": "001872",
+    "name": "招商港口",
+    "market": "深市主板",
+    "industry": "航运港口",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航运港口",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "航运概念",
+      "高股息精选",
+      "同花顺中特估100"
+    ]
+  },
+  {
+    "code": "002022",
+    "name": "科华生物",
+    "market": "深市主板",
+    "industry": "医疗器械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗器械",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "猴痘概念",
+      "宠物经济",
+      "流感"
+    ]
+  },
+  {
+    "code": "002023",
+    "name": "海特高新",
+    "market": "深市主板",
+    "industry": "航空装备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "航空装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "第三代半导体",
+      "太赫兹",
+      "卫星导航"
+    ]
+  },
+  {
+    "code": "002031",
+    "name": "巨轮智能",
+    "market": "深市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "人形机器人",
+      "工业母机"
+    ]
+  },
+  {
+    "code": "002050",
+    "name": "三花智控",
+    "market": "深市主板",
+    "industry": "家电零部件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人/热管理",
+    "industryGroup": "家电零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人形机器人",
+      "同花顺新质50",
+      "汽车热管理"
+    ]
+  },
+  {
+    "code": "002054",
+    "name": "德美化工",
+    "market": "深市主板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "有机硅概念",
+      "专精特新",
+      "创投"
+    ]
+  },
+  {
+    "code": "002085",
+    "name": "万丰奥威",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "低空经济",
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "飞行汽车(eVTOL)",
+      "华为汽车",
+      "两轮车"
+    ]
+  },
+  {
+    "code": "002116",
+    "name": "中国海诚",
+    "market": "深市主板",
+    "industry": "专业工程",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业工程",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "装配式建筑",
+      "新型城镇化",
+      "乡村振兴"
+    ]
+  },
+  {
+    "code": "002123",
+    "name": "梦网科技",
+    "market": "深市主板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "云办公",
+      "ChatGPT概念",
+      "智慧政务"
+    ]
+  },
+  {
+    "code": "002127",
+    "name": "南极电商",
+    "market": "深市主板",
+    "industry": "互联网电商",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "互联网电商",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "网红经济",
+      "跨境电商",
+      "ChatGPT概念"
+    ]
+  },
+  {
+    "code": "002131",
+    "name": "利欧股份",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "快手概念",
+      "小红书概念",
+      "ChatGPT概念"
+    ]
+  },
+  {
+    "code": "002135",
+    "name": "东南网架",
+    "market": "深市主板",
+    "industry": "专业工程",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专业工程",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "光伏概念",
+      "低空经济",
+      "可控核聚变"
+    ]
+  },
+  {
+    "code": "002139",
+    "name": "拓邦股份",
+    "market": "深市主板",
+    "industry": "消费电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "消费电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人形机器人",
+      "两轮车",
+      "AI应用"
+    ]
+  },
+  {
+    "code": "002142",
+    "name": "宁波银行",
+    "market": "深市主板",
+    "industry": "城商行",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "城商行",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "证金持股",
+      "共同富裕示范区",
+      "融资融券"
+    ]
+  },
+  {
+    "code": "002148",
+    "name": "北纬科技",
+    "market": "深市主板",
+    "industry": "通信服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "车联网(车路协同)",
+      "物联网",
+      "抖音概念(字节概念)"
+    ]
+  },
+  {
+    "code": "002156",
+    "name": "通富微电",
+    "market": "深市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "先进封装",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国家大基金持股",
+      "存储芯片",
+      "先进封装"
+    ]
+  },
+  {
+    "code": "002160",
+    "name": "常铝股份",
+    "market": "深市主板",
+    "industry": "工业金属",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工业金属",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "金属回收",
+      "国企改革",
+      "锂电池概念"
+    ]
+  },
+  {
+    "code": "002174",
+    "name": "游族网络",
+    "market": "深市主板",
+    "industry": "游戏",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "游戏",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "手机游戏",
+      "网络游戏",
+      "电子竞技"
+    ]
+  },
+  {
+    "code": "002179",
+    "name": "中航光电",
+    "market": "深市主板",
+    "industry": "军工电子",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "军工连接",
+    "industryGroup": "军工电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "铜缆高速连接",
+      "6G概念",
+      "光纤概念"
+    ]
+  },
+  {
+    "code": "002185",
+    "name": "华天科技",
+    "market": "深市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "先进封装",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国家大基金持股",
+      "先进封装",
+      "存储芯片"
+    ]
+  },
+  {
+    "code": "002195",
+    "name": "岩山科技",
+    "market": "深市主板",
+    "industry": "IT服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "IT服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "脑机接口",
+      "元宇宙",
+      "AIGC概念"
+    ]
+  },
+  {
+    "code": "002223",
+    "name": "鱼跃医疗",
+    "market": "深市主板",
+    "industry": "医疗器械",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗器械",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "幽门螺杆菌概念",
+      "眼科医疗",
+      "养老概念"
+    ]
+  },
+  {
+    "code": "002230",
+    "name": "科大讯飞",
+    "market": "深市主板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "AI语料",
+      "互联网保险",
+      "ChatGPT概念"
+    ]
+  },
+  {
+    "code": "002238",
+    "name": "天威视讯",
+    "market": "深市主板",
+    "industry": "电视广播",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电视广播",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "短剧游戏",
+      "文化传媒概念",
+      "虚拟数字人"
+    ]
+  },
+  {
+    "code": "002243",
+    "name": "力合科创",
+    "market": "深市主板",
+    "industry": "化妆品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化妆品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "毫米波雷达",
+      "芯片概念",
+      "数据中心(AIDC)"
+    ]
+  },
+  {
+    "code": "002279",
+    "name": "久其软件",
+    "market": "深市主板",
+    "industry": "软件开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "软件开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "财税数字化",
+      "小红书概念",
+      "ChatGPT概念"
+    ]
+  },
+  {
+    "code": "002281",
+    "name": "光迅科技",
+    "market": "深市主板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "通信连接",
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "F5G概念",
+      "光纤概念",
+      "共封装光学(CPO)"
+    ]
+  },
+  {
+    "code": "002283",
+    "name": "天润工业",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "比亚迪概念",
+      "新能源汽车",
+      "高端装备"
+    ]
+  },
+  {
+    "code": "002287",
+    "name": "奇正藏药",
+    "market": "深市主板",
+    "industry": "中药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "中药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "流感",
+      "创新药"
+    ]
+  },
+  {
+    "code": "002291",
+    "name": "遥望科技",
+    "market": "深市主板",
+    "industry": "广告营销",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "广告营销",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "文化传媒概念",
+      "网红经济",
+      "短剧游戏"
+    ]
+  },
+  {
+    "code": "002293",
+    "name": "罗莱生活",
+    "market": "深市主板",
+    "industry": "服装家纺",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "服装家纺",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "三胎概念",
+      "网红经济"
+    ]
+  },
+  {
+    "code": "002304",
+    "name": "洋河股份",
+    "market": "深市主板",
+    "industry": "白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "白酒",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "白酒概念",
+      "超级品牌",
+      "证金持股"
+    ]
+  },
+  {
+    "code": "002309",
+    "name": "中利集团",
+    "market": "深市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "光伏建筑一体化",
+      "绿色电力",
+      "TOPCON电池"
+    ]
+  },
+  {
+    "code": "002314",
+    "name": "南山控股",
+    "market": "深市主板",
+    "industry": "房地产开发",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "房地产开发",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "物业管理",
+      "跨境电商",
+      "统一大市场"
+    ]
+  },
+  {
+    "code": "002321",
+    "name": "华英农业",
+    "market": "深市主板",
+    "industry": "养殖业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "养殖业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "养鸡",
+      "预制菜",
+      "农村电商"
+    ]
+  },
+  {
+    "code": "002328",
+    "name": "新朋股份",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "数据中心(AIDC)",
+      "液冷服务器",
+      "长三角一体化"
+    ]
+  },
+  {
+    "code": "002355",
+    "name": "兴民智通",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人脸识别",
+      "算力租赁",
+      "数据要素"
+    ]
+  },
+  {
+    "code": "002371",
+    "name": "北方华创",
+    "market": "深市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体设备",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "国家大基金持股",
+      "中芯国际概念",
+      "存储芯片"
+    ]
+  },
+  {
+    "code": "002372",
+    "name": "伟星新材",
+    "market": "深市主板",
+    "industry": "装修建材",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "装修建材",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高股息精选",
+      "地下管网",
+      "净水概念"
+    ]
+  },
+  {
+    "code": "002375",
+    "name": "亚厦股份",
+    "market": "深市主板",
+    "industry": "装修装饰",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "装修装饰",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "百度概念",
+      "光伏建筑一体化",
+      "新型城镇化"
+    ]
+  },
+  {
+    "code": "002384",
+    "name": "东山精密",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB/消费电子",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "光纤概念",
+      "PCB概念"
+    ]
+  },
+  {
+    "code": "002396",
+    "name": "星网锐捷",
+    "market": "深市主板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "WiFi 6",
+      "共封装光学(CPO)",
+      "F5G概念"
+    ]
+  },
+  {
+    "code": "002400",
+    "name": "省广集团",
+    "market": "深市主板",
+    "industry": "广告营销",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "广告营销",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "快手概念",
+      "小红书概念",
+      "短剧游戏"
+    ]
+  },
+  {
+    "code": "002408",
+    "name": "齐翔腾达",
+    "market": "深市主板",
+    "industry": "炼化及贸易",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "炼化及贸易",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "环氧丙烷",
+      "可降解塑料",
+      "氢能源"
+    ]
+  },
+  {
+    "code": "002409",
+    "name": "雅克科技",
+    "market": "深市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "半导体材料",
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "存储芯片",
+      "国家大基金持股",
+      "先进封装"
+    ]
+  },
+  {
+    "code": "002420",
+    "name": "毅昌科技",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "农机",
+      "广东自贸区",
+      "医疗器械概念"
+    ]
+  },
+  {
+    "code": "002436",
+    "name": "兴森科技",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB/封装基板",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "topConcepts": [
+      "PCB概念",
+      "共封装光学(CPO)",
+      "先进封装"
+    ],
+    "industryLookupStatus": "classified"
+  },
+  {
+    "code": "002459",
+    "name": "晶澳科技",
+    "market": "深市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "光伏",
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "硅能源",
+      "TOPCON电池",
+      "HJT电池"
+    ]
+  },
+  {
+    "code": "002461",
+    "name": "珠江啤酒",
+    "market": "深市主板",
+    "industry": "非白酒",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "非白酒",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "啤酒概念",
+      "国企改革",
+      "融资融券"
+    ]
+  },
+  {
+    "code": "002462",
+    "name": "嘉事堂",
+    "market": "深市主板",
+    "industry": "医药商业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医药商业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医药电商",
+      "民营医院",
+      "冷链物流"
+    ]
+  },
+  {
+    "code": "002463",
+    "name": "沪电股份",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PCB概念",
+      "毫米波雷达",
+      "汽车电子"
+    ]
+  },
+  {
+    "code": "002465",
+    "name": "海格通信",
+    "market": "深市主板",
+    "industry": "军工电子",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "军工通信",
+    "industryGroup": "军工电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "军工信息化",
+      "卫星导航",
+      "航空发动机"
+    ]
+  },
+  {
+    "code": "002472",
+    "name": "双环传动",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "机器人概念",
+      "比亚迪概念"
+    ]
+  },
+  {
+    "code": "002515",
+    "name": "金字火腿",
+    "market": "深市主板",
+    "industry": "食品加工",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "食品加工",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "共封装光学(CPO)",
+      "数据中心(AIDC)",
+      "芯片概念"
+    ]
+  },
+  {
+    "code": "002522",
+    "name": "浙江众成",
+    "market": "深市主板",
+    "industry": "塑料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "塑料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PVDF概念",
+      "5G",
+      "传感器"
+    ]
+  },
+  {
+    "code": "002523",
+    "name": "天桥起重",
+    "market": "深市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "水利",
+      "海工装备",
+      "军工"
+    ]
+  },
+  {
+    "code": "002524",
+    "name": "光正眼科",
+    "market": "深市主板",
+    "industry": "医疗服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "医疗服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "装配式建筑",
+      "民营医院",
+      "地下管网"
+    ]
+  },
+  {
+    "code": "002527",
+    "name": "新时达",
+    "market": "深市主板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人/自动化",
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "区块链",
+      "阿里巴巴概念",
+      "数字孪生"
+    ]
+  },
+  {
+    "code": "002536",
+    "name": "飞龙股份",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "液冷服务器",
+      "芯片概念",
+      "数据中心(AIDC)"
+    ]
+  },
+  {
+    "code": "002548",
+    "name": "金新农",
+    "market": "深市主板",
+    "industry": "饲料",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "饲料",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "乡村振兴",
+      "生态农业",
+      "猪肉"
+    ]
+  },
+  {
+    "code": "002553",
+    "name": "南方精工",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "语音技术",
+      "ChatGPT概念"
+    ]
+  },
+  {
+    "code": "002559",
+    "name": "亚威股份",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "OLED",
+      "芯片概念",
+      "工业母机"
+    ]
+  },
+  {
+    "code": "002564",
+    "name": "天沃科技",
+    "market": "深市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "光热发电",
+      "氢能源",
+      "碳中和"
+    ]
+  },
+  {
+    "code": "002577",
+    "name": "雷柏科技",
+    "market": "深市主板",
+    "industry": "计算机设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "计算机设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "星闪概念",
+      "人工智能",
+      "粤港澳大湾区"
+    ]
+  },
+  {
+    "code": "002594",
+    "name": "比亚迪",
+    "market": "深市主板",
+    "industry": "乘用车",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "新能源车",
+    "industryGroup": "乘用车",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超级品牌",
+      "同花顺漂亮100",
+      "盐湖提锂"
+    ]
+  },
+  {
+    "code": "002595",
+    "name": "豪迈科技",
+    "market": "深市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "工业母机",
+      "海工装备",
+      "风电"
+    ]
+  },
+  {
+    "code": "002599",
+    "name": "盛通股份",
+    "market": "深市主板",
+    "industry": "包装印刷",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "包装印刷",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "在线教育",
+      "AI应用",
+      "虚拟数字人"
+    ]
+  },
+  {
+    "code": "002606",
+    "name": "大连电瓷",
+    "market": "深市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "特高压",
+      "虚拟电厂",
+      "绿色电力"
+    ]
+  },
+  {
+    "code": "002623",
+    "name": "亚玛顿",
+    "market": "深市主板",
+    "industry": "光伏设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "光伏设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "钙钛矿电池",
+      "光伏概念",
+      "POE胶膜"
+    ]
+  },
+  {
+    "code": "002628",
+    "name": "成都路桥",
+    "market": "深市主板",
+    "industry": "基础建设",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "基础建设",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "小金属概念",
+      "新疆振兴",
+      "无人驾驶"
+    ]
+  },
+  {
+    "code": "002629",
+    "name": "仁智股份",
+    "market": "深市主板",
+    "industry": "基础建设",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "基础建设",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "页岩气",
+      "俄乌冲突概念",
+      "天然气"
+    ]
+  },
+  {
+    "code": "002658",
+    "name": "雪迪龙",
+    "market": "深市主板",
+    "industry": "环保设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环保设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "航空发动机",
+      "核电",
+      "氢能源"
+    ]
+  },
+  {
+    "code": "002672",
+    "name": "东江环保",
+    "market": "深市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "医疗废物处理",
+      "广东自贸区",
+      "固废处理"
+    ]
+  },
+  {
+    "code": "002673",
+    "name": "西部证券",
+    "market": "深市主板",
+    "industry": "证券",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "证券",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "期货概念",
+      "国企改革",
+      "西部大开发"
+    ]
+  },
+  {
+    "code": "002705",
+    "name": "新宝股份",
+    "market": "深市主板",
+    "industry": "小家电",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "小家电",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "宠物经济",
+      "三胎概念",
+      "中俄贸易概念"
+    ]
+  },
+  {
+    "code": "002709",
+    "name": "天赐材料",
+    "market": "深市主板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "电池材料",
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "氟化工概念",
+      "钠离子电池",
+      "动力电池回收"
+    ]
+  },
+  {
+    "code": "002714",
+    "name": "牧原股份",
+    "market": "深市主板",
+    "industry": "养殖业",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "养殖业",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "猪肉",
+      "同花顺漂亮100",
+      "合成生物"
+    ]
+  },
+  {
+    "code": "002739",
+    "name": "儒意电影",
+    "market": "深市主板",
+    "industry": "影视院线",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "影视院线",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "短剧游戏",
+      "IP经济(谷子经济)",
+      "文化传媒概念"
+    ]
+  },
+  {
+    "code": "002747",
+    "name": "埃斯顿",
+    "market": "深市主板",
+    "industry": "自动化设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "机器人",
+    "industryGroup": "自动化设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人形机器人",
+      "工业母机",
+      "新型工业化"
+    ]
+  },
+  {
+    "code": "002749",
+    "name": "国光股份",
+    "market": "深市主板",
+    "industry": "农化制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "农化制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "化肥",
+      "草甘膦",
+      "高股息精选"
+    ]
+  },
+  {
+    "code": "002763",
+    "name": "汇洁股份",
+    "market": "深市主板",
+    "industry": "服装家纺",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "服装家纺",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "跨境电商"
+    ]
+  },
+  {
+    "code": "002769",
+    "name": "普路通",
+    "market": "深市主板",
+    "industry": "物流",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "物流",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "跨境电商",
+      "AIGC概念",
+      "AI应用"
+    ]
+  },
+  {
+    "code": "002773",
+    "name": "康弘药业",
+    "market": "深市主板",
+    "industry": "生物制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "生物制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "创新药",
+      "阿尔茨海默概念",
+      "眼科医疗"
+    ]
+  },
+  {
+    "code": "002786",
+    "name": "银宝山新",
+    "market": "深市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "化债概念(AMC概念)",
+      "华为汽车",
+      "新型工业化"
+    ]
+  },
+  {
+    "code": "002792",
+    "name": "通宇通讯",
+    "market": "深市主板",
+    "industry": "通信设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通信设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "6G概念",
+      "卫星导航",
+      "F5G概念"
+    ]
+  },
+  {
+    "code": "002795",
+    "name": "永和智控",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人民币贬值受益",
+      "民营医院",
+      "医疗器械概念"
+    ]
+  },
+  {
+    "code": "002805",
+    "name": "丰元股份",
+    "market": "深市主板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "磷化工",
+      "钠离子电池",
+      "固态电池"
+    ]
+  },
+  {
+    "code": "002813",
+    "name": "路畅科技",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "人工智能",
+      "DeepSeek概念",
+      "车联网(车路协同)"
+    ]
+  },
+  {
+    "code": "002815",
+    "name": "崇达技术",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PCB概念",
+      "共封装光学(CPO)",
+      "5G"
+    ]
+  },
+  {
+    "code": "002820",
+    "name": "桂发祥",
+    "market": "深市主板",
+    "industry": "休闲食品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "休闲食品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "预制菜",
+      "京津冀一体化",
+      "天津自贸区"
+    ]
+  },
+  {
+    "code": "002829",
+    "name": "星网宇达",
+    "market": "深市主板",
+    "industry": "航天装备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "卫星导航",
+    "industryGroup": "航天装备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "军工信息化",
+      "卫星导航",
+      "商业航天"
+    ]
+  },
+  {
+    "code": "002837",
+    "name": "英维克",
+    "market": "深市主板",
+    "industry": "专用设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "液冷/数据中心",
+    "industryGroup": "专用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "液冷服务器",
+      "中国AI 50",
+      "英伟达概念"
+    ]
+  },
+  {
+    "code": "002849",
+    "name": "威星智能",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "专精特新",
+      "星闪概念",
+      "智慧城市"
+    ]
+  },
+  {
+    "code": "002850",
+    "name": "科达利",
+    "market": "深市主板",
+    "industry": "电池",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电池",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PEEK材料",
+      "减速器",
+      "人形机器人"
+    ]
+  },
+  {
+    "code": "002851",
+    "name": "麦格米特",
+    "market": "深市主板",
+    "industry": "其他电源设备",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "电源/自动化",
+    "industryGroup": "其他电源设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "第三代半导体",
+      "中国AI 50",
+      "英伟达概念"
+    ]
+  },
+  {
+    "code": "002853",
+    "name": "皮阿诺",
+    "market": "深市主板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "C2M概念",
+      "物联网",
+      "智能家居"
+    ]
+  },
+  {
+    "code": "002857",
+    "name": "三晖电气",
+    "market": "深市主板",
+    "industry": "电网设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电网设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "电力物联网",
+      "智能电网",
+      "储能"
+    ]
+  },
+  {
+    "code": "002862",
+    "name": "实丰文化",
+    "market": "深市主板",
+    "industry": "文娱用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "文娱用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "NFT概念",
+      "IP经济(谷子经济)",
+      "AIGC概念"
+    ]
+  },
+  {
+    "code": "002875",
+    "name": "安奈儿",
+    "market": "深市主板",
+    "industry": "服装家纺",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "服装家纺",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "广东自贸区",
+      "粤港澳大湾区",
+      "跨境电商"
+    ]
+  },
+  {
+    "code": "002877",
+    "name": "智能自控",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "工业互联网",
+      "人工智能",
+      "新型工业化"
+    ]
+  },
+  {
+    "code": "002887",
+    "name": "绿茵生态",
+    "market": "深市主板",
+    "industry": "环境治理",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "环境治理",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "足球概念",
+      "露营经济",
+      "土壤修复"
+    ]
+  },
+  {
+    "code": "002896",
+    "name": "中大力德",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "人形机器人",
+      "新型工业化"
+    ]
+  },
+  {
+    "code": "002903",
+    "name": "宇环数控",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "富士康概念",
+      "苹果概念",
+      "第三代半导体"
+    ]
+  },
+  {
+    "code": "002916",
+    "name": "深南电路",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB/封装基板",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "PCB概念",
+      "富士康概念",
+      "先进封装"
+    ]
+  },
+  {
+    "code": "002917",
+    "name": "金奥博",
+    "market": "深市主板",
+    "industry": "化学制品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "工业互联网",
+      "机器人概念",
+      "新型工业化"
+    ]
+  },
+  {
+    "code": "002918",
+    "name": "蒙娜丽莎",
+    "market": "深市主板",
+    "industry": "家居用品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "家居用品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "智能家居",
+      "创投",
+      "精装修"
+    ]
+  },
+  {
+    "code": "002922",
+    "name": "伊戈尔",
+    "market": "深市主板",
+    "industry": "其他电子",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他电子",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "高压快充",
+      "数据中心(AIDC)",
+      "华为数字能源"
+    ]
+  },
+  {
+    "code": "002931",
+    "name": "锋龙股份",
+    "market": "深市主板",
+    "industry": "通用设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "通用设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "长安汽车概念",
+      "机器人概念",
+      "新能源汽车"
+    ]
+  },
+  {
+    "code": "002936",
+    "name": "郑州银行",
+    "market": "深市主板",
+    "industry": "城商行",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "城商行",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "融资融券",
+      "深股通"
+    ]
+  },
+  {
+    "code": "002938",
+    "name": "鹏鼎控股",
+    "market": "深市主板",
+    "industry": "元件",
+    "isST": false,
+    "sampleRole": "existing_mainline",
+    "sampleTheme": "PCB",
+    "industryGroup": "元件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "同花顺果指数",
+      "PCB概念",
+      "富士康概念"
+    ]
+  },
+  {
+    "code": "002940",
+    "name": "昂利康",
+    "market": "深市主板",
+    "industry": "化学制药",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "化学制药",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "创新药",
+      "仿制药一致性评价",
+      "幽门螺杆菌概念"
+    ]
+  },
+  {
+    "code": "002951",
+    "name": "金时科技",
+    "market": "深市主板",
+    "industry": "其他电源设备",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "其他电源设备",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "超级电容",
+      "蚂蚁集团概念",
+      "数字经济"
+    ]
+  },
+  {
+    "code": "002956",
+    "name": "西麦食品",
+    "market": "深市主板",
+    "industry": "休闲食品",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "休闲食品",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "跨境电商",
+      "西部大开发"
+    ]
+  },
+  {
+    "code": "002961",
+    "name": "瑞达期货",
+    "market": "深市主板",
+    "industry": "多元金融",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "多元金融",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "期货概念",
+      "参股券商",
+      "互联网金融"
+    ]
+  },
+  {
+    "code": "002997",
+    "name": "瑞鹄模具",
+    "market": "深市主板",
+    "industry": "汽车零部件",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "汽车零部件",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "一体化压铸",
+      "华为汽车",
+      "小米汽车"
+    ]
+  },
+  {
+    "code": "003013",
+    "name": "地铁设计",
+    "market": "深市主板",
+    "industry": "工程咨询服务",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "工程咨询服务",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "装配式建筑",
+      "PPP概念",
+      "地下管网"
+    ]
+  },
+  {
+    "code": "003018",
+    "name": "金富科技",
+    "market": "深市主板",
+    "industry": "包装印刷",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "包装印刷",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "液冷服务器",
+      "富士康概念",
+      "东数西算(算力)"
+    ]
+  },
+  {
+    "code": "003021",
+    "name": "兆威机电",
+    "market": "深市主板",
+    "industry": "电机",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "电机",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "减速器",
+      "人形机器人",
+      "新型工业化"
+    ]
+  },
+  {
+    "code": "003043",
+    "name": "华亚智能",
+    "market": "深市主板",
+    "industry": "半导体",
+    "isST": false,
+    "sampleRole": "market_control",
+    "sampleTheme": null,
+    "industryGroup": "半导体",
+    "industrySource": "ths_f10_sw",
+    "industryLookupStatus": "classified",
+    "topConcepts": [
+      "专精特新",
+      "高铁",
+      "光刻机"
+    ]
+  }
+]
