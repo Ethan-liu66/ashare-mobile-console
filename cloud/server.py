@@ -45,6 +45,8 @@ TDX_BRIDGE_MANIFEST_PATH = TDX_BRIDGE_DIR / "manifest.json"
 TDX_BRIDGE_QUOTES_PATH = TDX_BRIDGE_DIR / "watchlist_quotes.json"
 TDX_BRIDGE_KLINES_DIR = TDX_BRIDGE_DIR / "klines"
 TDX_BRIDGE_QUOTE_MAX_AGE_SECONDS = 36 * 60 * 60
+ALLOW_LAGGING_KLINE_SEED = os.environ.get("ALLOW_LAGGING_KLINE_SEED", "0") == "1"
+KLINE_SEED_MAX_GAP_DAYS = int(os.environ.get("KLINE_SEED_MAX_GAP_DAYS", "4"))
 MAINLINE_SAMPLE_PATH = DATA_DIR / "mainline_sample_100.json"
 CLASSIFIED_SAMPLE_PATHS = [
     DATA_DIR / "backtest_sample_all_classified.json",
@@ -1047,6 +1049,15 @@ def is_stale_kline_payload(payload):
         if latest and base_latest and (latest - base_latest).days > 7:
             return True
     return bool(latest and latest < expected)
+
+
+def kline_payload_gap_days(payload):
+    if not isinstance(payload, list) or not payload:
+        return None
+    latest = parse_kline_date((payload[-1] or {}).get("date"))
+    if not latest:
+        return None
+    return max(0, (latest_expected_kline_date() - latest).days)
 
 
 def read_fundamental_cache(code):
@@ -3722,7 +3733,14 @@ def fetch_ths_klines(code, limit=520, force_refresh=False, wait_for_slot=False):
 
 
 def fetch_provider_klines(code, force_refresh=False, wait_for_slot=False):
-    bridged = read_tdx_bridge_klines(code)
+    bridged = read_tdx_bridge_klines(
+        code,
+        allow_stale=ALLOW_LAGGING_KLINE_SEED,
+    )
+    if bridged and ALLOW_LAGGING_KLINE_SEED:
+        gap_days = kline_payload_gap_days(bridged)
+        if gap_days is None or gap_days > KLINE_SEED_MAX_GAP_DAYS:
+            bridged = None
     if bridged:
         return {
             "ok": True,

@@ -14,12 +14,18 @@ on:
           - midday
           - close
   schedule:
-    - cron: "35 1 * * 1-5"
-    - cron: "30 2 * * 1-5"
-    - cron: "35 3 * * 1-5"
-    - cron: "30 5 * * 1-5"
-    - cron: "30 6 * * 1-5"
-    - cron: "10 7 * * 1-5"
+    - cron: "35 9 * * 1-5"
+      timezone: "Asia/Shanghai"
+    - cron: "30 10 * * 1-5"
+      timezone: "Asia/Shanghai"
+    - cron: "35 11 * * 1-5"
+      timezone: "Asia/Shanghai"
+    - cron: "30 13 * * 1-5"
+      timezone: "Asia/Shanghai"
+    - cron: "30 14 * * 1-5"
+      timezone: "Asia/Shanghai"
+    - cron: "10 15 * * 1-5"
+      timezone: "Asia/Shanghai"
 
 permissions:
   contents: write
@@ -45,6 +51,8 @@ jobs:
       PROVIDER_COOLDOWN_SECONDS: "5"
       PROVIDER_REQUEST_RETRIES: "1"
       PROVIDER_RETRY_DELAY_SECONDS: "8"
+      ALLOW_LAGGING_KLINE_SEED: "1"
+      KLINE_SEED_MAX_GAP_DAYS: "4"
       ASHARE_MOBILE_PASSPHRASE: ${{ secrets.ASHARE_MOBILE_PASSPHRASE }}
 
     steps:
@@ -65,9 +73,9 @@ jobs:
           requested="${{ github.event.inputs.mode || 'auto' }}"
           if [[ "$requested" != "auto" ]]; then
             mode="$requested"
-          elif [[ "${{ github.event.schedule }}" == "35 3 * * 1-5" ]]; then
+          elif [[ "${{ github.event.schedule }}" == "35 11 * * 1-5" ]]; then
             mode="midday"
-          elif [[ "${{ github.event.schedule }}" == "10 7 * * 1-5" ]]; then
+          elif [[ "${{ github.event.schedule }}" == "10 15 * * 1-5" ]]; then
             mode="close"
           else
             mode="hourly"
