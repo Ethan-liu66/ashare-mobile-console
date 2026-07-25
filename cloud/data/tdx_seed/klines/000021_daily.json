@@ -1,21 +1,10 @@
 {
   "schemaVersion": 1,
-  "source": "workbuddy-tdx",
+  "source": "tdx-seed+eastmoney-cloud-close",
   "code": "000021",
   "period": "daily",
-  "generatedAt": "2026-07-23T22:49:56+08:00",
+  "generatedAt": "2026-07-25T15:03:02+08:00",
   "klines": [
-    {
-      "date": "20240603",
-      "open": 12.75,
-      "high": 13.03,
-      "low": 12.66,
-      "close": 12.81,
-      "volume": 434203.36,
-      "amount": 581932288.0,
-      "turnoverRate": 0,
-      "pctChange": 0.0
-    },
     {
       "date": "20240604",
       "open": 12.75,
@@ -5724,6 +5713,18 @@
       "amount": 5261035520.0,
       "turnoverRate": 0,
       "pctChange": -2.8095
+    },
+    {
+      "date": "20260724",
+      "open": 38.5,
+      "high": 42.8,
+      "low": 38.29,
+      "close": 41.99,
+      "volume": 2096957,
+      "amount": 8593148112.45,
+      "pctChange": 7.4188,
+      "turnoverRate": 13.32,
+      "source": "eastmoney-cloud-close"
     }
   ]
 }
