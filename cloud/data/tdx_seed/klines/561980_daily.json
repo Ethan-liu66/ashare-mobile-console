@@ -3,19 +3,8 @@
   "source": "tdx-seed+eastmoney-cloud-close",
   "code": "561980",
   "period": "daily",
-  "generatedAt": "2026-09-11T20:11:15+08:00",
+  "generatedAt": "2026-09-14T21:59:18+08:00",
   "klines": [
-    {
-      "date": "20240724",
-      "open": 0.189,
-      "high": 0.191,
-      "low": 0.186,
-      "close": 0.187,
-      "volume": 310239.0,
-      "amount": 29196266.0,
-      "pctChange": 0.0,
-      "turnoverRate": 0.0
-    },
     {
       "date": "20240725",
       "open": 0.184,
@@ -5758,6 +5747,18 @@
       "amount": 248287625.0,
       "pctChange": -1.5504,
       "turnoverRate": 4.53,
+      "source": "eastmoney-cloud-close"
+    },
+    {
+      "date": "20260914",
+      "open": 0.624,
+      "high": 0.633,
+      "low": 0.618,
+      "close": 0.627,
+      "volume": 2751198,
+      "amount": 172186919.0,
+      "pctChange": -1.2598,
+      "turnoverRate": 3.15,
       "source": "eastmoney-cloud-close"
     }
   ]
