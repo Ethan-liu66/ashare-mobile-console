@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#17694f"><link rel="icon" href="./favicon.svg"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css"><title>练吃有数</title>
+<style>.unlock{min-height:100vh;display:grid;place-items:center;padding:24px;background:#f5f7f5}.unlock-card{width:min(100%,390px);background:#fff;border:1px solid #dce6df;border-radius:20px;padding:26px;box-shadow:0 20px 50px #0b372014}.unlock-card h1{margin:0 0 8px;font-size:28px}.unlock-card p{color:#617269}.unlock-card input[type=password]{width:100%;height:48px;border:1px solid #cddbd1;border-radius:10px;padding:10px;font-size:17px}.unlock-card button{width:100%;margin-top:15px;padding:12px;border:0;border-radius:11px;background:#17694f;color:#fff;font-weight:700}.unlock-card label{display:flex;gap:8px;align-items:center;margin-top:12px;color:#617269;font-size:14px}.unlock-error{color:#b12c29!important;min-height:24px}</style></head><body>
+<div id="unlock" class="unlock"><form id="unlock-form" class="unlock-card"><h1>练吃有数</h1><p>输入专属密码，打开训练与饮食助手。</p><input id="passphrase" type="password" autocomplete="current-password" required placeholder="专属密码"><label><input id="remember" type="checkbox" checked>在这台设备上记住密码</label><button type="submit">打开应用</button><p id="unlock-error" class="unlock-error" role="alert"></p></form></div><div id="root"></div>
+<script>
+const keyName="lian-chi-you-shu-github-passphrase";
+const decode=(value)=>Uint8Array.from(atob(value),c=>c.charCodeAt(0));
+async function unlock(passphrase,remember){
+  const url="./app.enc.json?v=95e02acaa669";
+  const response=await fetch(url,{cache:"no-store"}); if(!response.ok)throw Error("应用文件未加载");
+  const box=await response.json();
+  const keyMaterial=await crypto.subtle.importKey("raw",new TextEncoder().encode(passphrase),"PBKDF2",false,["deriveKey"]);
+  const key=await crypto.subtle.deriveKey({name:"PBKDF2",salt:decode(box.salt),iterations:box.iterations,hash:"SHA-256"},keyMaterial,{name:"AES-GCM",length:256},false,["decrypt"]);
+  const plain=await crypto.subtle.decrypt({name:"AES-GCM",iv:decode(box.iv)},key,decode(box.payload));
+  if(remember)localStorage.setItem(keyName,passphrase);else localStorage.removeItem(keyName);
+  document.getElementById("unlock").remove();
+  const script=document.createElement("script");script.type="module";script.textContent=new TextDecoder().decode(plain);document.body.appendChild(script);
+}
+document.getElementById("unlock-form").addEventListener("submit",async event=>{
+  event.preventDefault();const button=event.currentTarget.querySelector("button");button.disabled=true;
+  const passphrase=document.getElementById("passphrase").value;
+  try{await unlock(passphrase,document.getElementById("remember").checked)}
+  catch(error){document.getElementById("unlock-error").textContent=error?.message==="应用文件未加载"?"暂时无法加载应用，请检查网络。":"密码不正确，请重试。";button.disabled=false;}
+});
+const remembered=localStorage.getItem(keyName);if(remembered){document.getElementById("passphrase").value=remembered;document.getElementById("unlock-form").requestSubmit();}
+</script></body></html>
