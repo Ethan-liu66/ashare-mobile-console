@@ -3,19 +3,8 @@
   "source": "tdx-seed+tencent-cloud-close",
   "code": "000021",
   "period": "daily",
-  "generatedAt": "2026-10-27T21:09:52+08:00",
+  "generatedAt": "2026-10-28T21:58:44+08:00",
   "klines": [
-    {
-      "date": "20240826",
-      "open": 12.43,
-      "high": 12.49,
-      "low": 12.31,
-      "close": 12.38,
-      "volume": 139234.99,
-      "amount": 178313168.0,
-      "pctChange": 0.0,
-      "turnoverRate": 0.0
-    },
     {
       "date": "20240827",
       "open": 12.29,
@@ -5781,6 +5770,18 @@
       "amount": 1244164745.0,
       "pctChange": -2.8732,
       "turnoverRate": 2.75,
+      "source": "tencent-cloud-close"
+    },
+    {
+      "date": "20261028",
+      "open": 28.23,
+      "high": 28.85,
+      "low": 27.89,
+      "close": 28.62,
+      "volume": 509562.0,
+      "amount": 1446041227.0,
+      "pctChange": 3.2468,
+      "turnoverRate": 3.22,
       "source": "tencent-cloud-close"
     }
   ]
