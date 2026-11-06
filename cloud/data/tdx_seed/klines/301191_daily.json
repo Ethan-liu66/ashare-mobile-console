@@ -1,21 +1,10 @@
 {
   "schemaVersion": 1,
-  "source": "tdx-seed+tencent-cloud-close",
+  "source": "tdx-seed+eastmoney-cloud-close",
   "code": "301191",
   "period": "daily",
-  "generatedAt": "2026-11-05T23:25:12+08:00",
+  "generatedAt": "2026-11-06T22:58:41+08:00",
   "klines": [
-    {
-      "date": "20240904",
-      "open": 43.549999,
-      "high": 44.59,
-      "low": 42.959999,
-      "close": 44.09,
-      "volume": 15662.41,
-      "amount": 97864704.0,
-      "pctChange": 0.0,
-      "turnoverRate": 0.0
-    },
     {
       "date": "20240905",
       "open": 44.290001,
@@ -5789,6 +5778,18 @@
       "pctChange": 3.3002,
       "turnoverRate": 4.49,
       "source": "tencent-cloud-close"
+    },
+    {
+      "date": "20261106",
+      "open": 58.5,
+      "high": 60.23,
+      "low": 57.93,
+      "close": 59.05,
+      "volume": 22884,
+      "amount": 134893184.5,
+      "pctChange": -3.749,
+      "turnoverRate": 3.13,
+      "source": "eastmoney-cloud-close"
     }
   ]
 }
